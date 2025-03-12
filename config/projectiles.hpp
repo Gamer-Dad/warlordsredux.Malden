@@ -52,6 +52,35 @@ class WLProjectilesConfig {
         sead = 1;
     };
 
+    class WLProjectile_TVGuided: WLProjectile {
+        ammo[] = {
+            "M_Lancet",
+            "M_Switchblade"
+        };
+        aps = 0;
+        tv = 1;
+        consumption = 1;
+    };
+
+    class WLProjectile_TVGuidedHeavy: WLProjectile {
+        ammo[] = {
+            "M_Spike"
+        };
+        aps = 1;
+        tv = 1;
+        consumption = 3;
+        dazzleable = 1;
+    };
+
+    class WLProjectile_TVGuidedArtillery: WLProjectile {
+        ammo[] = {
+            "M_Excalibur",
+            "M_Krasnopol"
+        };
+        aps = 3;
+        tv = 1;
+    };
+
     class WLProjectile_MediumGuided: WLProjectile {
         ammo[] = {
             "M_Titan_AT_long",                  // Titan AT (Vehicle)

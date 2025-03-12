@@ -198,7 +198,7 @@ class LightVehicles {
             };
             turret[] = { 0 };
         };
-    }; // Qilin (AT-M)
+    };
 
     class O_MRAP_02_gmg_F {
         aps = 1;
