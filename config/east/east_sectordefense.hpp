@@ -1,10 +1,18 @@
 class SectorDefense {
+    class Land_Scaffolding_New_F {
+        cost = 10;
+        demolishable = 1;
+        killReward = 5;
+        offset[] = {0, 2, 0};
+        requirements[] = {};
+    };  // "Scaffolding"
+
     class Land_Razorwire_F {
         cost = 50;
+        demolishable = 1;
         killReward = 30;
         offset[] = {0, 5, 0};
         requirements[] = {};
-        structure = 1;
     };  // "Razor Wire Fence"
 
     class Land_BagFence_Round_F {
@@ -21,8 +29,15 @@ class SectorDefense {
         killReward = 30;
         offset[] = {0, 5, 0};
         requirements[] = {};
-        structure = 1;
     };  // "Tank barrier"
+
+    class Land_HBarrier_5_F {
+        cost = 50;
+        demolishable = 1;
+        killReward = 30;
+        offset[] = {0, 3, 0};
+        requirements[] = {};
+    }; // "H-barrier"
 
     class Land_HBarrierWall6_F {
         cost = 60;
@@ -30,16 +45,15 @@ class SectorDefense {
         killReward = 30;
         offset[] = {0, 3, 0};
         requirements[] = {};
-        structure = 1;
     }; // "H-barrier wall"
 
     class CamoNet_OPFOR_big_F {
         cost = 100;
+        demolishable = 1;
         garbageCollect = 1;
         killReward = 30;
         offset[] = {0, 6, 0};
         requirements[] = {};
-        structure = 1;
     };  // "Camouflage Vehicle Cover (Hex)"
 
     class O_HMG_01_F {
@@ -70,11 +84,11 @@ class SectorDefense {
 
     class Land_IRMaskingCover_01_F {
         cost = 200;
+        demolishable = 1;
         garbageCollect = 1;
         killReward = 30;
         offset[] = {0, 8, 0};
         requirements[] = {};
-        structure = 1;
     };  // "IR Masking Tent (Large)"
 
     class O_HMG_01_high_F {
@@ -174,17 +188,28 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };//Mk30 HMG
+    };
+
+    class O_GMG_01_A_F {
+        cost = 650;
+        killReward = 150;
+        loadable[] = {0, -2.5, 0.4};
+        name = "Mk32 GMG Auto Turret";
+        offset[] = {0, 3, 0};
+        rearm = 300;
+        requirements[] = {};
+    };
 
     class O_static_AT_UP_F {
-        cost = 590;
-        description = "Static AT Launcher (UP) is an upgraded variant of the Static AT Launcher.";
+        cost = 700;
+        description = "Static AT/AA Launcher (UP) is an upgraded variant of the stationary launchers.";
         disallowMagazines[] = {
-            "4Rnd_GAA_missiles"
+            "4Rnd_GAA_missiles",
+            "5Rnd_GAT_missiles"
         };
         killReward = 200;
         loadable[] = {0, -2.5, 0.2};
-        name = "Static AT Launcher (UP)";
+        name = "Static AT/AA Launcher (UP)";
         offset[] = {0, 3, 0};
         rearm = 300;
         requirements[] = {};
@@ -216,29 +241,18 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };//Static AT Launcher (UP)
+    };
 
-    class O_GMG_01_A_F {
-        cost = 650;
-        killReward = 150;
-        loadable[] = {0, -2.5, 0.4};
-        name = "Mk32 GMG Auto Turret";
-        offset[] = {0, 3, 0};
-        rearm = 300;
-        requirements[] = {};
-    }; //Mk32 GMG
-
-    class Land_Communication_F {
+    class Land_MobileRadar_01_radar_F {
         cost = 2500;
         demolishable = 1;
-        description = "Jamming Tower can be used to jam enemy autonomous assets. It must be placed outside the home base in an owned sector.";
+        description = "EW Tower can be used to jam enemy autonomous assets and provide EW support to your team. It must be placed outside the home base in an owned sector.";
         garbageCollect = 1;
         killReward = 400;
-        name = "Jamming Tower";
+        name = "EW Tower";
         offset[] = {0, 6, 0};
         requirements[] = {};
-        structure = 1;
-    }; // Jamming Tower
+    };
 
     class O_Mortar_01_F {
         cost = 4000;
@@ -249,11 +263,43 @@ class SectorDefense {
         requirements[] = {};
     };  // "Mortar"
 
-    // class B_Ship_MRLS_01_F {
-    //     cost = 30000;
-    //     requirements[] = {};
-    //     offset[] = {0, 7, 0};
-    //     rearm = 2700;
-    //     killReward = 700;
-    // };  // "Mk41 VLS"
+    class O_Mortar_01_TV_F {
+        ammoOverrides[] = {
+            {"M_127mm_Firefist_AT", "M_Lancet"}
+        };
+        cost = 6000;
+        description = "Lancet Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
+        killReward = 125;
+        loadable[] = {0, -2.5, 0};
+        name = "Lancet Launcher";
+        offset[] = {0, 3, 0};
+        rearm = 900;
+        requirements[] = {};
+        spawn = "O_Mortar_01_F";
+        variant = 1;
+
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles"
+            };
+            addWeapons[] = {
+                "missiles_Firefist"
+            };
+            removeMagazines[] = {
+                "8Rnd_82mm_Mo_shells",
+                "8Rnd_82mm_Mo_Flare_white",
+                "8Rnd_82mm_Mo_Smoke_white",
+                "8Rnd_82mm_Mo_guided",
+                "8Rnd_82mm_Mo_LG"
+            };
+            removeWeapons[] = {
+                "mortar_82mm"
+            };
+            turret[] = { 0 };
+        };
+    };
 };
