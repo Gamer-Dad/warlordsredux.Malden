@@ -23,6 +23,7 @@ class WLProjectilesConfig {
         };
         aps = 3;
         camera = 1;
+        consumption = 3;
         dazzleable = 1;
     };
 
@@ -38,6 +39,16 @@ class WLProjectilesConfig {
         aps = 3;
         camera = 1;
         sam = 1;
+    };
+
+    class WLProjectile_A2A: WLProjectile {
+        ammo[] = {
+            "ammo_Missile_AMRAAM_C",
+            "ammo_Missile_AMRAAM_D",
+            "ammo_Missile_AA_R77"
+        };
+        aps = 3;
+        camera = 1;
     };
 
     class WLProjectile_SEAD: WLProjectile {
@@ -58,8 +69,9 @@ class WLProjectilesConfig {
             "M_Switchblade"
         };
         aps = 0;
-        tv = 1;
         consumption = 1;
+        speed = 200;
+        tv = 1;
     };
 
     class WLProjectile_TVGuidedHeavy: WLProjectile {
@@ -67,9 +79,29 @@ class WLProjectilesConfig {
             "M_Spike"
         };
         aps = 1;
-        tv = 1;
         consumption = 3;
         dazzleable = 1;
+        speed = 125;
+        tv = 1;
+    };
+
+    class WLProjectile_TVGuidedBomb: WLProjectile {
+        ammo[] = {
+            "ammo_gbu15",
+            "ammo_kab250kr"
+        };
+        aps = 3;
+        remote = 1;
+    };
+
+    class WLProjectile_GPSGuidedBomb: WLProjectile {
+        ammo[] = {
+            "ammo_gbu12_gps",
+            "ammo_kab250se"
+        };
+        aps = 3;
+        camera = 1;
+        gps = 1;
     };
 
     class WLProjectile_TVGuidedArtillery: WLProjectile {
@@ -77,7 +109,8 @@ class WLProjectilesConfig {
             "M_Excalibur",
             "M_Krasnopol"
         };
-        aps = 3;
+        aps = 2;
+        consumption = 1;
         tv = 1;
     };
 
