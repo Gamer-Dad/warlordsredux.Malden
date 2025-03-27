@@ -13,7 +13,8 @@ class Spawn {
 
     class Land_TentA_F {
         garbageCollector = 1;
-    }; // Fast Travel Tent
+        name = "Deployed Tent";
+    };
 
     class ForwardBaseSupplies {
         cost = 500;
@@ -25,6 +26,7 @@ class Spawn {
     };
 
     class RuggedTerminal_01_communications_hub_F {
+        killReward = 500;
         name = "Forward Base";
     };
 };
