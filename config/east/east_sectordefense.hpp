@@ -243,16 +243,16 @@ class SectorDefense {
         };
     };
 
-    class Land_MobileRadar_01_radar_F {
-        cost = 2500;
-        demolishable = 1;
-        description = "EW Tower can be used to jam enemy autonomous assets and provide EW support to your team. It must be placed outside the home base in an owned sector.";
-        garbageCollect = 1;
-        killReward = 400;
-        name = "EW Tower";
-        offset[] = {0, 6, 0};
-        requirements[] = {};
-    };
+    // class Land_MobileRadar_01_radar_F {
+    //     cost = 2500;
+    //     demolishable = 1;
+    //     description = "EW Tower can be used to jam enemy autonomous assets and provide EW support to your team. It must be placed outside the home base in an owned sector.";
+    //     garbageCollect = 1;
+    //     killReward = 400;
+    //     name = "EW Tower";
+    //     offset[] = {0, 6, 0};
+    //     requirements[] = {};
+    // };
 
     class O_Mortar_01_F {
         cost = 4000;

@@ -56,23 +56,23 @@ class RotaryWing {
         };
     };
 
-    class O_Heli_Transport_02_AWACS_F {
-        cost = 3800;
-        description = "CH-49 Mohawk (AWACS) is a variant of the CH-49 Mohawk with a powerful air radar.";
-        hasAWACS = 1;
-        hasHMD = 1;
-        killReward = 300;
-        name = "CH-49 Mohawk (AWACS)";
-        offset[] = {0, 10, 0};
-        requirements[] = {"H"};
-        spawn = "I_Heli_Transport_02_F";
-        textures[] = {
-            "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_1_DAHOMAN_CO.paa",
-            "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_2_DAHOMAN_CO.paa",
-            "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_3_DAHOMAN_CO.paa",
-            "A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
-        };
-    };
+    // class O_Heli_Transport_02_AWACS_F {
+    //     cost = 3800;
+    //     description = "CH-49 Mohawk (AWACS) is a variant of the CH-49 Mohawk with a powerful air radar.";
+    //     hasAWACS = 1;
+    //     hasHMD = 1;
+    //     killReward = 300;
+    //     name = "CH-49 Mohawk (AWACS)";
+    //     offset[] = {0, 10, 0};
+    //     requirements[] = {"H"};
+    //     spawn = "I_Heli_Transport_02_F";
+    //     textures[] = {
+    //         "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_1_DAHOMAN_CO.paa",
+    //         "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_2_DAHOMAN_CO.paa",
+    //         "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_3_DAHOMAN_CO.paa",
+    //         "A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
+    //     };
+    // };
 
     class O_Heli_Light_02_dynamicLoadout_F {
         cost = 4000;

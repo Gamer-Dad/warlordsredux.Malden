@@ -118,15 +118,15 @@ class AirDefense {
         };
     }; // "ZSU-39 Tigris"
 
-    // class O_SAM_System_04_F {
-    //     cost = 8000;
-    //     description = "Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: >10km.";
-    //     killReward = 500;
-    //     loadable[] = {0, 0, 1};
-    //     offset[] = {0, 6, 0};
-    //     rearm = 450;
-    //     requirements[] = {};
-    // };  // "S-750 Rhea"
+    class O_SAM_System_04_F {
+        cost = 8000;
+        description = "Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: >10km.";
+        killReward = 500;
+        loadable[] = {0, 0, 1};
+        offset[] = {0, 6, 0};
+        rearm = 450;
+        requirements[] = {};
+    };  // "S-750 Rhea"
 
     class O_APC_Tracked_02_AA_M_F {
         aps = 2;
