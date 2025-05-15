@@ -4,7 +4,7 @@
 #include "src\scripts\WLM\ui\WLM_pylons.hpp"
 #include "src\scripts\SQD\squadMenu.hpp"
 
-onLoadName = "Warlords Redux 2b.0.1";
+onLoadName = "Warlords Redux 2b.0.2";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
@@ -79,6 +79,8 @@ class Header
 #include "src\briefings.hpp"
 
 #include "src\scripts\DIS\ui.hpp"
+#include "src\scripts\MENU\ui.hpp"
+#include "src\scripts\PERF\ui.hpp"
 #include "src\scripts\POLL\ui.hpp"
 #include "src\scripts\WLC\ui.hpp"
 
