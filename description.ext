@@ -4,7 +4,7 @@
 #include "src\scripts\WLM\ui\WLM_pylons.hpp"
 #include "src\scripts\SQD\squadMenu.hpp"
 
-onLoadName = "Warlords Redux 2b.0.1";
+onLoadName = "Warlords Redux 2b.0.2";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
@@ -59,6 +59,7 @@ BIS_WL_baseValue = 50;
 BIS_WL_autonomous_limit = 2;
 BIS_WL_minAPSDist = 1000; //actual range = √x
 BIS_WL_maxAPSDist = 1600; //actual range = √x
+WL2_MinBaseDistance = 3;
 
 onPauseScript[] = {WL2_fnc_onPause};
 
@@ -79,6 +80,8 @@ class Header
 #include "src\briefings.hpp"
 
 #include "src\scripts\DIS\ui.hpp"
+#include "src\scripts\MENU\ui.hpp"
+#include "src\scripts\PERF\ui.hpp"
 #include "src\scripts\POLL\ui.hpp"
 #include "src\scripts\WLC\ui.hpp"
 

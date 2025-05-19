@@ -8,7 +8,7 @@ class EditorData
 	toggles=1538;
 	class ItemIDProvider
 	{
-		nextID=3105;
+		nextID=3107;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=96;
+		nextID=97;
 	};
 	class Camera
 	{
-		pos[]={7239.6836,233.33603,7843.8779};
-		dir[]={-0.68303871,-0.37055025,0.62940502};
-		up[]={-0.27249867,0.92881238,0.25110146};
-		aside[]={0.67764491,0,0.73538923};
+		pos[]={8179.2427,104.30215,2992.2869};
+		dir[]={-0.22478534,-0.56890959,0.79108369};
+		up[]={-0.15549918,0.82240003,0.54724592};
+		aside[]={0.96192074,0,0.27332845};
 	};
 };
 binarizationWanted=0;
@@ -205,38 +205,6 @@ class ScenarioData
 	overviewText="Warlords Redux introduces hundreds of improvements of the original Warlords.";
 	overViewPicture="src\img\wl_logo_ca.paa";
 };
-class CustomAttributes
-{
-	class Category0
-	{
-		name="Multiplayer";
-		class Attribute0
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-					class value
-					{
-						items=1;
-						class Item0
-						{
-							class data
-							{
-								singleType="STRING";
-								value="None";
-							};
-						};
-					};
-				};
-			};
-		};
-		nAttributes=1;
-	};
-};
 class Mission
 {
 	class Intel
@@ -262,7 +230,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=248;
+		items=250;
 		class Item0
 		{
 			dataType="Logic";
@@ -270,7 +238,7 @@ class Mission
 			{
 				position[]={2349.925,202.36058,3289.7029};
 			};
-			init="this setVariable [""BIS_WL_services"", [""H""]]; this setVariable [""BIS_WL_canBeBase"", FALSE]; this setVariable [""BIS_WL_name"", ""Abandonned Warehouse""];";
+			init="this setVariable [""BIS_WL_services"", [""H""]];this setVariable [""BIS_WL_name"", ""Abandonned Warehouse""];";
 			id=9;
 			type="Logic";
 		};
@@ -293,7 +261,7 @@ class Mission
 			{
 				position[]={5836.4912,74.025002,3525.0879};
 			};
-			init="this setVariable [""BIS_WL_canBeBase"", FALSE]; this setVariable [""BIS_WL_name"", ""Chapoi""];";
+			init="this setVariable [""BIS_WL_name"", ""Chapoi""];";
 			id=12;
 			type="Logic";
 			atlOffset=19.075001;
@@ -446,13 +414,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11610.73,12.216797,4512.6274};
-				angles[]={0.051953323,0,6.2192731};
+				position[]={11610.73,12.216676,4512.627};
+				angles[]={0.051958453,0,6.2192717};
 			};
-			init="this setVariable [""BIS_WL_services"", [""H"",""W""]]; this setVariable [""BIS_WL_name"", ""South Point""];";
+			init="this setVariable [""BIS_WL_services"", [""H"",""W""]]; this setVariable [""BIS_WL_name"", ""South Point""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=40;
 			type="Logic";
-			atlOffset=0.0001411438;
 		};
 		class Item16
 		{
@@ -461,7 +428,7 @@ class Mission
 			{
 				position[]={4337.7959,485.1698,6777.1631};
 			};
-			init="this setVariable [""BIS_WL_name"",  ""Feas Outpost""]; this setVariable [""BIS_WL_canBeBase"", FALSE];";
+			init="this setVariable [""BIS_WL_name"",  ""Feas Outpost""];";
 			id=56;
 			type="Logic";
 			atlOffset=37.45816;
@@ -486,7 +453,7 @@ class Mission
 				position[]={5773.9609,2.5583375,2421.427};
 				angles[]={0,0,0.0015358897};
 			};
-			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Cancon Harbor""];";
+			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Cancon Harbor""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=59;
 			type="Logic";
 		};
@@ -497,7 +464,7 @@ class Mission
 			{
 				position[]={9349.4326,4.855,3839.2739};
 			};
-			init="this setVariable [""BIS_WL_services"", [""W""]];this setVariable [""BIS_WL_name"", ""PMC Harbor""];";
+			init="this setVariable [""BIS_WL_services"", [""W""]];this setVariable [""BIS_WL_name"", ""PMC Harbor""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=60;
 			type="Logic";
 			atlOffset=1.175;
@@ -530,16 +497,17 @@ class Mission
 		class Item22
 		{
 			dataType="Trigger";
-			position[]={2348.929,201.06596,3306.6306};
+			position[]={2343.8308,203.95752,3285.8467};
 			angle=5.0614858;
 			class Attributes
 			{
-				sizeA=136.12277;
-				sizeB=114.21584;
+				sizeA=159.6871;
+				sizeB=137.78018;
 				isRectangle=1;
 			};
 			id=77;
 			type="EmptyDetector";
+			atlOffset=1.437027;
 		};
 		class Item23
 		{
@@ -3902,7 +3870,7 @@ class Mission
 			{
 				position[]={5513.5249,44.603809,11628.908};
 			};
-			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Lolisse Habor""];";
+			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Lolisse Habor""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=1935;
 			type="Logic";
 			atlOffset=41.431492;
@@ -3926,12 +3894,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5972.9028,182.6235,10035.822};
+				position[]={5972.9028,182.62387,10035.822};
 			};
-			init="this setVariable [""BIS_WL_name"",  ""Secret Rock""]; this setVariable [""BIS_WL_canBeBase"", FALSE];";
+			init="this setVariable [""BIS_WL_name"",""Secret Rock""]; ";
 			id=1939;
 			type="Logic";
-			atlOffset=9.4336395;
+			atlOffset=9.4340057;
 		};
 		class Item97
 		{
@@ -3953,7 +3921,7 @@ class Mission
 			{
 				position[]={3043.907,74.355911,8480.7334};
 			};
-			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Goisse Harbor""];";
+			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Goisse Harbor""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=1941;
 			type="Logic";
 			atlOffset=70.411873;
@@ -3977,12 +3945,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3108.9316,334.96741,6308.9614};
+				position[]={3108.9319,334.96765,6308.9609};
 			};
-			init="this setVariable [""BIS_WL_name"", ""La Pessagne""]; this setVariable [""BIS_WL_canBeBase"", FALSE];";
+			init="this setVariable [""BIS_WL_name"", ""La Pessagne""];";
 			id=1943;
 			type="Logic";
-			atlOffset=110.58777;
+			atlOffset=110.58801;
 		};
 		class Item101
 		{
@@ -4006,7 +3974,7 @@ class Mission
 			{
 				position[]={1622.3571,29.048233,4639.5518};
 			};
-			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Arette Beach""];";
+			init="this setVariable [""BIS_WL_services"", [""W""]]; this setVariable [""BIS_WL_name"", ""Arette Beach""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=1945;
 			type="Logic";
 			atlOffset=25.628;
@@ -4105,16 +4073,16 @@ class Mission
 		class Item110
 		{
 			dataType="Trigger";
-			position[]={5288.8696,408.99127,4743.2544};
+			position[]={5291.3477,408.99121,4714.7852};
 			angle=2.1149371;
 			class Attributes
 			{
-				sizeA=86.033211;
-				sizeB=86.033211;
+				sizeA=160.0919;
+				sizeB=160.0919;
 			};
 			id=1966;
 			type="EmptyDetector";
-			atlOffset=322.24896;
+			atlOffset=322.93185;
 		};
 		class Item111
 		{
@@ -4124,7 +4092,7 @@ class Mission
 				position[]={7035.98,79.956032,7143.3682};
 				angles[]={0.12690289,0,0.42488295};
 			};
-			init="this setVariable [""BIS_WL_name"",  ""Dourdan""]; this setVariable [""BIS_WL_canBeBase"", FALSE];";
+			init="this setVariable [""BIS_WL_name"",  ""Dourdan""];";
 			id=110;
 			type="Logic";
 			atlOffset=0.036003113;
@@ -4186,12 +4154,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3790.9539,85.185112,4937.9502};
+				position[]={3790.9541,85.185081,4937.9502};
 			};
-			init="this setVariable [""BIS_WL_name"", ""Corton""];";
+			init="this setVariable [""BIS_WL_name"",""Corton""];";
 			id=1971;
 			type="Logic";
-			atlOffset=16.502029;
+			atlOffset=16.501999;
 		};
 		class Item117
 		{
@@ -4214,7 +4182,7 @@ class Mission
 			{
 				position[]={7799.606,199.99001,7555.0342};
 			};
-			init="this setVariable [""BIS_WL_name"",  ""Lumber Mill""]; this setVariable [""BIS_WL_canBeBase"", FALSE];";
+			init="this setVariable [""BIS_WL_name"",  ""Lumber Mill""];";
 			id=1974;
 			type="Logic";
 		};
@@ -13956,7 +13924,7 @@ class Mission
 			{
 				position[]={2999.751,117.92587,7155.167};
 			};
-			init="this setVariable [""BIS_WL_name"",""Fishermans Revine""];this setVariable [""BIS_WL_services"", [""W""]];";
+			init="this setVariable [""BIS_WL_name"",""Fishermans Revine""];this setVariable [""BIS_WL_services"", [""W""]];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=2718;
 			type="Logic";
 			atlOffset=110.061;
@@ -14014,7 +13982,7 @@ class Mission
 			{
 				position[]={8537.6152,114.3,7688.5361};
 			};
-			init="this setVariable [""BIS_WL_services"", [""H"",""W""]]; this setVariable [""BIS_WL_name"", ""East Village""];";
+			init="this setVariable [""BIS_WL_services"", [""H"",""W""]]; this setVariable [""BIS_WL_name"", ""East Village""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=1976;
 			type="Logic";
 		};
@@ -14040,7 +14008,7 @@ class Mission
 				position[]={9699.4775,17.956997,5921.3242};
 				angles[]={0.063913956,0,6.2416115};
 			};
-			init="this setVariable [""BIS_WL_services"", [""H"",""W""]]; this setVariable [""BIS_WL_name"", ""Point 19 Bravo""];";
+			init="this setVariable [""BIS_WL_services"", [""H"",""W""]]; this setVariable [""BIS_WL_name"", ""Point 19 Bravo""];this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=2724;
 			type="Logic";
 			atlOffset=1.9073486e-06;
@@ -14146,27 +14114,53 @@ class Mission
 		class Item247
 		{
 			dataType="Trigger";
-			position[]={6582.2002,159.42297,6036.502};
+			position[]={6588.9497,159.42297,6025.9224};
 			angle=2.1149371;
 			class Attributes
 			{
-				sizeA=86.033211;
-				sizeB=86.033211;
+				sizeA=110.48885;
+				sizeB=110.48885;
 			};
 			id=3104;
 			type="EmptyDetector";
-			atlOffset=2.8481445;
+			atlOffset=3.4324646;
+		};
+		class Item248
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8283.9473,26.755455,3202.3235};
+			};
+			init="this setVariable [""BIS_WL_name"", ""Downtown Le Port""];";
+			id=3105;
+			type="Logic";
+			atlOffset=4.546114;
+		};
+		class Item249
+		{
+			dataType="Trigger";
+			position[]={8279.4824,103.41113,3215.7205};
+			angle=3.5046964;
+			class Attributes
+			{
+				sizeA=176.34656;
+				sizeB=279.71393;
+			};
+			id=3106;
+			type="EmptyDetector";
+			atlOffset=81.17421;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=76;
+			nextID=78;
 		};
 		class Links
 		{
-			items=76;
+			items=78;
 			class Item0
 			{
 				linkID=0;
@@ -14561,7 +14555,7 @@ class Mission
 			{
 				linkID=39;
 				item0=1987;
-				item1=1953;
+				item1=60;
 				class CustomData
 				{
 					type="Sync";
@@ -14570,8 +14564,8 @@ class Mission
 			class Item40
 			{
 				linkID=40;
-				item0=1987;
-				item1=60;
+				item0=32;
+				item1=1987;
 				class CustomData
 				{
 					type="Sync";
@@ -14580,8 +14574,8 @@ class Mission
 			class Item41
 			{
 				linkID=41;
-				item0=32;
-				item1=1987;
+				item0=1953;
+				item1=59;
 				class CustomData
 				{
 					type="Sync";
@@ -14590,8 +14584,8 @@ class Mission
 			class Item42
 			{
 				linkID=42;
-				item0=1953;
-				item1=59;
+				item0=12;
+				item1=1987;
 				class CustomData
 				{
 					type="Sync";
@@ -14600,8 +14594,8 @@ class Mission
 			class Item43
 			{
 				linkID=43;
-				item0=12;
-				item1=1987;
+				item0=60;
+				item1=33;
 				class CustomData
 				{
 					type="Sync";
@@ -14610,8 +14604,8 @@ class Mission
 			class Item44
 			{
 				linkID=44;
-				item0=60;
-				item1=33;
+				item0=57;
+				item1=1971;
 				class CustomData
 				{
 					type="Sync";
@@ -14620,8 +14614,8 @@ class Mission
 			class Item45
 			{
 				linkID=45;
-				item0=57;
-				item1=1971;
+				item0=110;
+				item1=1974;
 				class CustomData
 				{
 					type="Sync";
@@ -14630,8 +14624,8 @@ class Mission
 			class Item46
 			{
 				linkID=46;
-				item0=110;
-				item1=1974;
+				item0=24;
+				item1=16;
 				class CustomData
 				{
 					type="Sync";
@@ -14640,8 +14634,8 @@ class Mission
 			class Item47
 			{
 				linkID=47;
-				item0=24;
-				item1=16;
+				item0=1939;
+				item1=26;
 				class CustomData
 				{
 					type="Sync";
@@ -14650,8 +14644,8 @@ class Mission
 			class Item48
 			{
 				linkID=48;
-				item0=1939;
-				item1=26;
+				item0=26;
+				item1=28;
 				class CustomData
 				{
 					type="Sync";
@@ -14660,8 +14654,8 @@ class Mission
 			class Item49
 			{
 				linkID=49;
-				item0=26;
-				item1=28;
+				item0=24;
+				item1=23;
 				class CustomData
 				{
 					type="Sync";
@@ -14670,8 +14664,8 @@ class Mission
 			class Item50
 			{
 				linkID=50;
-				item0=24;
-				item1=23;
+				item0=1939;
+				item1=1985;
 				class CustomData
 				{
 					type="Sync";
@@ -14680,8 +14674,8 @@ class Mission
 			class Item51
 			{
 				linkID=51;
-				item0=1939;
-				item1=1985;
+				item0=1983;
+				item1=1939;
 				class CustomData
 				{
 					type="Sync";
@@ -14690,8 +14684,8 @@ class Mission
 			class Item52
 			{
 				linkID=52;
-				item0=1983;
-				item1=1939;
+				item0=17;
+				item1=2718;
 				class CustomData
 				{
 					type="Sync";
@@ -14700,8 +14694,8 @@ class Mission
 			class Item53
 			{
 				linkID=53;
-				item0=17;
-				item1=2718;
+				item0=2718;
+				item1=1941;
 				class CustomData
 				{
 					type="Sync";
@@ -14710,8 +14704,8 @@ class Mission
 			class Item54
 			{
 				linkID=54;
-				item0=2718;
-				item1=1941;
+				item0=2724;
+				item1=1976;
 				class CustomData
 				{
 					type="Sync";
@@ -14721,7 +14715,7 @@ class Mission
 			{
 				linkID=55;
 				item0=2724;
-				item1=1976;
+				item1=40;
 				class CustomData
 				{
 					type="Sync";
@@ -14730,8 +14724,8 @@ class Mission
 			class Item56
 			{
 				linkID=56;
-				item0=2724;
-				item1=40;
+				item0=1939;
+				item1=30;
 				class CustomData
 				{
 					type="Sync";
@@ -14740,7 +14734,7 @@ class Mission
 			class Item57
 			{
 				linkID=57;
-				item0=1939;
+				item0=29;
 				item1=30;
 				class CustomData
 				{
@@ -14750,8 +14744,8 @@ class Mission
 			class Item58
 			{
 				linkID=58;
-				item0=29;
-				item1=30;
+				item0=30;
+				item1=28;
 				class CustomData
 				{
 					type="Sync";
@@ -14760,8 +14754,8 @@ class Mission
 			class Item59
 			{
 				linkID=59;
-				item0=30;
-				item1=28;
+				item0=2466;
+				item1=1935;
 				class CustomData
 				{
 					type="Sync";
@@ -14771,7 +14765,7 @@ class Mission
 			{
 				linkID=60;
 				item0=2466;
-				item1=1935;
+				item1=28;
 				class CustomData
 				{
 					type="Sync";
@@ -14780,8 +14774,8 @@ class Mission
 			class Item61
 			{
 				linkID=61;
-				item0=2466;
-				item1=28;
+				item0=1987;
+				item1=33;
 				class CustomData
 				{
 					type="Sync";
@@ -14790,8 +14784,8 @@ class Mission
 			class Item62
 			{
 				linkID=62;
-				item0=1987;
-				item1=33;
+				item0=59;
+				item1=2978;
 				class CustomData
 				{
 					type="Sync";
@@ -14800,8 +14794,8 @@ class Mission
 			class Item63
 			{
 				linkID=63;
-				item0=59;
-				item1=2978;
+				item0=2978;
+				item1=1953;
 				class CustomData
 				{
 					type="Sync";
@@ -14810,8 +14804,8 @@ class Mission
 			class Item64
 			{
 				linkID=64;
-				item0=2978;
-				item1=1953;
+				item0=32;
+				item1=3103;
 				class CustomData
 				{
 					type="Sync";
@@ -14820,7 +14814,7 @@ class Mission
 			class Item65
 			{
 				linkID=65;
-				item0=32;
+				item0=1965;
 				item1=3103;
 				class CustomData
 				{
@@ -14830,8 +14824,8 @@ class Mission
 			class Item66
 			{
 				linkID=66;
-				item0=1965;
-				item1=3103;
+				item0=9;
+				item1=1971;
 				class CustomData
 				{
 					type="Sync";
@@ -14840,8 +14834,8 @@ class Mission
 			class Item67
 			{
 				linkID=67;
-				item0=9;
-				item1=1971;
+				item0=1978;
+				item1=1967;
 				class CustomData
 				{
 					type="Sync";
@@ -14850,8 +14844,8 @@ class Mission
 			class Item68
 			{
 				linkID=68;
-				item0=1978;
-				item1=1967;
+				item0=60;
+				item1=2978;
 				class CustomData
 				{
 					type="Sync";
@@ -14860,8 +14854,8 @@ class Mission
 			class Item69
 			{
 				linkID=69;
-				item0=60;
-				item1=2978;
+				item0=62;
+				item1=25;
 				class CustomData
 				{
 					type="Sync";
@@ -14870,8 +14864,8 @@ class Mission
 			class Item70
 			{
 				linkID=70;
-				item0=62;
-				item1=25;
+				item0=1945;
+				item1=1941;
 				class CustomData
 				{
 					type="Sync";
@@ -14880,8 +14874,8 @@ class Mission
 			class Item71
 			{
 				linkID=71;
-				item0=1945;
-				item1=1941;
+				item0=2718;
+				item1=1978;
 				class CustomData
 				{
 					type="Sync";
@@ -14890,8 +14884,8 @@ class Mission
 			class Item72
 			{
 				linkID=72;
-				item0=2718;
-				item1=1978;
+				item0=1967;
+				item1=1945;
 				class CustomData
 				{
 					type="Sync";
@@ -14900,8 +14894,8 @@ class Mission
 			class Item73
 			{
 				linkID=73;
-				item0=1967;
-				item1=1945;
+				item0=1971;
+				item1=1965;
 				class CustomData
 				{
 					type="Sync";
@@ -14910,8 +14904,8 @@ class Mission
 			class Item74
 			{
 				linkID=74;
-				item0=1971;
-				item1=1965;
+				item0=1945;
+				item1=1971;
 				class CustomData
 				{
 					type="Sync";
@@ -14920,8 +14914,28 @@ class Mission
 			class Item75
 			{
 				linkID=75;
-				item0=1945;
-				item1=1971;
+				item0=1953;
+				item1=3105;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item76
+			{
+				linkID=76;
+				item0=3105;
+				item1=1987;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item77
+			{
+				linkID=77;
+				item0=3105;
+				item1=32;
 				class CustomData
 				{
 					type="Sync";
