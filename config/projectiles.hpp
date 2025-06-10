@@ -27,28 +27,60 @@ class WLProjectilesConfig {
         dazzleable = 1;
     };
 
+    // class WLProjectiles_Arty: WLProjectile {
+    //     ammo[] = {
+    //         "Sh_82mm_AMOS",                     // 82mm HE
+    //         "Sh_82mm_AMOS_guided",              // 82mm Guided
+    //         "Sh_82mm_AMOS_LG",                  // 82mm Laser Guided
+    //         "Sh_155mm_AMOS",                    // 155mm HE
+    //         "Sh_155mm_AMOS_guided",             // 155mm Guided
+    //         "Sh_155mm_AMOS_LG",                 // 155mm Laser Guided
+    //         "ammo_ShipCannon_120mm_HE",         // 120mm HE
+    //         "ammo_ShipCannon_120mm_HE_guided",  // 120mm Guided
+    //         "ammo_ShipCannon_120mm_HE_LG"       // 120mm Laser Guided
+    //     };
+    //     aps = 3;
+    //     cram = 1;
+    // };
+
     class WLProjectile_SAM: WLProjectile {
         ammo[] = {
             "ammo_Missile_rim116",              // Spartan
             "ammo_Missile_rim162",              // Centurion
             "ammo_Missile_s750",                // Rhea
             "ammo_Missile_mim145",              // Defender
+            "M_Zephyr_SAM",                     // Zephyr (SAM)
             "M_70mm_SAAMI",                     // SAAMI
+            "M_Titan_AA",                       // Titan AA
+            "M_Titan_AA_static"                 // Titan AA (Static)
+        };
+        aps = 3;
+        camera = 1;
+        sam = 1;
+        speed = 1.1;
+    };
+
+    class WLProjectile_MANPAD_Heavy: WLProjectile {
+        ammo[] = {
+            "M_Titan_AA_long"                   // Titan AA (Long)
+        };
+        aps = 3;
+        camera = 1;
+        sam = 1;
+        speed = 1.2;
+    };
+
+    class WLProjectile_A2A: WLProjectile {
+        ammo[] = {
+            "ammo_Missile_AMRAAM_C",            // AMRAAM C
+            "ammo_Missile_AMRAAM_D",            // AMRAAM D
+            "ammo_Missile_AA_R77",              // R-77
             "M_Zephyr"                          // Zephyr
         };
         aps = 3;
         camera = 1;
         sam = 1;
-    };
-
-    class WLProjectile_A2A: WLProjectile {
-        ammo[] = {
-            "ammo_Missile_AMRAAM_C",
-            "ammo_Missile_AMRAAM_D",
-            "ammo_Missile_AA_R77"
-        };
-        aps = 3;
-        camera = 1;
+        speed = 3;
     };
 
     class WLProjectile_SEAD: WLProjectile {
@@ -58,7 +90,7 @@ class WLProjectilesConfig {
         };
         aps = 1;
         camera = 1;
-        consumption = 3;
+        consumption = 25;
         dazzleable = 1;
         sead = 1;
     };
@@ -70,18 +102,19 @@ class WLProjectilesConfig {
         };
         aps = 0;
         consumption = 1;
-        speed = 200;
+        speed = 150;
         tv = 1;
     };
 
     class WLProjectile_TVGuidedHeavy: WLProjectile {
         ammo[] = {
-            "M_Spike"
+            "M_Spike",
+            "M_HJ12"
         };
         aps = 1;
-        consumption = 3;
+        consumption = 2;
         dazzleable = 1;
-        speed = 125;
+        speed = 100;
         tv = 1;
     };
 
@@ -91,6 +124,7 @@ class WLProjectilesConfig {
             "ammo_kab250kr"
         };
         aps = 3;
+        camera = 1;
         remote = 1;
     };
 
@@ -110,8 +144,18 @@ class WLProjectilesConfig {
             "M_Krasnopol"
         };
         aps = 2;
-        consumption = 1;
+        consumption = 3;
         tv = 1;
+    };
+
+    class WLProjectile_ExtendedSAM: WLProjectile {
+        ammo[] = {
+            "M_SM6",
+            "M_HHQ9"
+        };
+        aps = 3;
+        camera = 1;
+        esam = 1;
     };
 
     class WLProjectile_MediumGuided: WLProjectile {
@@ -149,11 +193,13 @@ class WLProjectilesConfig {
     class WLProjectile_DoubleGuided: WLProjectile {
         ammo[] = {
             "M_127mm_Firefist_AT",              // Firefist AT
+            "M_Vorona_HEAT_Tandem",             // Vorona HEAT Tandem
 
             "M_Jian_AT",                        // Jian - Max loadout: 4
             "Missile_AGM_02_F"                  // Macer I && II (same mag) - Max loadout: 20
         };
         aps = 1;
+        camera = 1;
         consumption = 2;
         dazzleable = 1;
     };
