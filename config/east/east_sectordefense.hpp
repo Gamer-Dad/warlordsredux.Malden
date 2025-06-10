@@ -264,44 +264,44 @@ class SectorDefense {
         requirements[] = {};
     };  // "Mortar"
 
-    class O_Mortar_01_TV_F {
-        ammoOverrides[] = {
-            {"M_127mm_Firefist_AT", {"M_Lancet", "Lancet (Loitering Munition)"}}
-        };
-        cost = 6000;
-        demolishable = 1;
-        description = "Lancet Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
-        killReward = 125;
-        loadable[] = {0, -2.5, 0};
-        name = "Lancet Launcher";
-        offset[] = {0, 3, 0};
-        rearm = 900;
-        requirements[] = {};
-        spawn = "O_Mortar_01_F";
-        variant = 1;
+    // class O_Mortar_01_TV_F {
+    //     ammoOverrides[] = {
+    //         {"M_127mm_Firefist_AT", {"M_Lancet", "Lancet (Loitering Munition)"}}
+    //     };
+    //     cost = 6000;
+    //     demolishable = 1;
+    //     description = "Lancet Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
+    //     killReward = 125;
+    //     loadable[] = {0, -2.5, 0};
+    //     name = "Lancet Launcher";
+    //     offset[] = {0, 3, 0};
+    //     rearm = 900;
+    //     requirements[] = {};
+    //     spawn = "O_Mortar_01_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles"
-            };
-            addWeapons[] = {
-                "missiles_Firefist"
-            };
-            removeMagazines[] = {
-                "8Rnd_82mm_Mo_shells",
-                "8Rnd_82mm_Mo_Flare_white",
-                "8Rnd_82mm_Mo_Smoke_white",
-                "8Rnd_82mm_Mo_guided",
-                "8Rnd_82mm_Mo_LG"
-            };
-            removeWeapons[] = {
-                "mortar_82mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_Firefist"
+    //         };
+    //         removeMagazines[] = {
+    //             "8Rnd_82mm_Mo_shells",
+    //             "8Rnd_82mm_Mo_Flare_white",
+    //             "8Rnd_82mm_Mo_Smoke_white",
+    //             "8Rnd_82mm_Mo_guided",
+    //             "8Rnd_82mm_Mo_LG"
+    //         };
+    //         removeWeapons[] = {
+    //             "mortar_82mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 };

@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=97;
+		nextID=100;
 	};
 	class Camera
 	{
 		pos[]={8179.2427,104.30215,2992.2869};
-		dir[]={-0.22478534,-0.56890959,0.79108369};
-		up[]={-0.15549918,0.82240003,0.54724592};
-		aside[]={0.96192074,0,0.27332845};
+		dir[]={-0.22478539,-0.56890953,0.79108387};
+		up[]={-0.15549919,0.82240009,0.54724598};
+		aside[]={0.96192086,0,0.27332848};
 	};
 };
 binarizationWanted=0;
@@ -209,8 +209,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Warlords 2.6.10 (Redux) | WSV";
-		overviewText="WLRedux  Malden  2b.0.1";
+		briefingName="WLRedux Malden 2.6.0-beta.1 | WSV";
+		overviewText="WLRedux Malden 2.6.0-beta.1";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -348,7 +348,7 @@ class Mission
 			init="this setVariable [""BIS_WL_services"", [""H""]]; this setVariable [""BIS_WL_canBeBase"", FALSE]; this setVariable [""BIS_WL_name"", ""Airport Military Base""];";
 			id=28;
 			type="Logic";
-			atlOffset=16.951942;
+			atlOffset=16.9519;
 		};
 		class Item10
 		{
@@ -649,7 +649,7 @@ class Mission
 			};
 			id=103;
 			type="EmptyDetectorAreaR250";
-			atlOffset=10.119781;
+			atlOffset=10.11974;
 		};
 		class Item33
 		{

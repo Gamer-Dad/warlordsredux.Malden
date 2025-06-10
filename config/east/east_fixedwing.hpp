@@ -8,92 +8,92 @@ class FixedWing {
         spawn = "C_Plane_Civil_01_F";
     };
 
-    class O_Plane_Caesar_hmggmg_01_F {
-        cost = 1500;
-        description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
-        killReward = 300;
-        name = "Caesar BTT (HMG/GMG)";
-        rearm = 300;
-        requirements[] = {"A"};
-        spawn = "C_Plane_Civil_01_F";
-        variant = 1;
+    // class O_Plane_Caesar_hmggmg_01_F {
+    //     cost = 1500;
+    //     description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
+    //     killReward = 300;
+    //     name = "Caesar BTT (HMG/GMG)";
+    //     rearm = 300;
+    //     requirements[] = {"A"};
+    //     spawn = "C_Plane_Civil_01_F";
+    //     variant = 1;
     
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "500Rnd_127x99_mag_Tracer_Yellow",
-                "500Rnd_127x99_mag_Tracer_Yellow",
-                "96Rnd_40mm_G_belt",
-                "96Rnd_40mm_G_belt",
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "HMG_127",
-                "GMG_40mm",
-                "CMFlareLauncher"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            turret[] = { -1 };
-        };
-    }; // Caesar BTT (HMG/GMG)
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "500Rnd_127x99_mag_Tracer_Yellow",
+    //             "500Rnd_127x99_mag_Tracer_Yellow",
+    //             "96Rnd_40mm_G_belt",
+    //             "96Rnd_40mm_G_belt",
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "HMG_127",
+    //             "GMG_40mm",
+    //             "CMFlareLauncher"
+    //         };
+    //         removeMagazines[] = {};
+    //         removeWeapons[] = {};
+    //         turret[] = { -1 };
+    //     };
+    // }; // Caesar BTT (HMG/GMG)
 
-    class O_Plane_Caesar_rocket_01_F {
-        cost = 1800;
-        description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
-        killReward = 300;
-        name = "Caesar BTT (Rocket)";
-        rearm = 400;
-        requirements[] = {"A"};
-        spawn = "C_Plane_Civil_01_F";
-        variant = 1;
+    // class O_Plane_Caesar_rocket_01_F {
+    //     cost = 1800;
+    //     description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
+    //     killReward = 300;
+    //     name = "Caesar BTT (Rocket)";
+    //     rearm = 400;
+    //     requirements[] = {"A"};
+    //     spawn = "C_Plane_Civil_01_F";
+    //     variant = 1;
 
-        class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "14Rnd_80mm_rockets",
-                "14Rnd_80mm_rockets",
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "rockets_Skyfire",
-                "CMFlareLauncher"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            turret[] = { -1 };
-        };
-    }; // Caesar BTT (Rocket)
+    //     class Pilot: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "14Rnd_80mm_rockets",
+    //             "14Rnd_80mm_rockets",
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "rockets_Skyfire",
+    //             "CMFlareLauncher"
+    //         };
+    //         removeMagazines[] = {};
+    //         removeWeapons[] = {};
+    //         turret[] = { -1 };
+    //     };
+    // }; // Caesar BTT (Rocket)
 
-    class O_Plane_Caesar_bomb_01_F {
-        cost = 2000;
-        description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
-        killReward = 300;
-        name = "Caesar BTT (Bomb)";
-        rearm = 400;
-        requirements[] = {"A"};
-        spawn = "C_Plane_Civil_01_F";
-        variant = 1;
+    // class O_Plane_Caesar_bomb_01_F {
+    //     cost = 2000;
+    //     description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
+    //     killReward = 300;
+    //     name = "Caesar BTT (Bomb)";
+    //     rearm = 400;
+    //     requirements[] = {"A"};
+    //     spawn = "C_Plane_Civil_01_F";
+    //     variant = 1;
     
-        class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "2Rnd_Mk82",
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "Mk82BombLauncher",
-                "CMFlareLauncher"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            turret[] = { -1 };
-        };
-    }; //Caesar BTT (Bomb)
+    //     class Pilot: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_Mk82",
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "Mk82BombLauncher",
+    //             "CMFlareLauncher"
+    //         };
+    //         removeMagazines[] = {};
+    //         removeWeapons[] = {};
+    //         turret[] = { -1 };
+    //     };
+    // }; //Caesar BTT (Bomb)
 
-    class O_T_VTOL_02_infantry_dynamicLoadout_F {
-        cost = 14000;
-        killReward = 600;
-        rearm = 700;
-        requirements[] = {"A"};
-    }; // "Y-32 Xi'an (Infantry Transport)"
+    // class O_T_VTOL_02_infantry_dynamicLoadout_F {
+    //     cost = 14000;
+    //     killReward = 600;
+    //     rearm = 700;
+    //     requirements[] = {"A"};
+    // }; // "Y-32 Xi'an (Infantry Transport)"
 
     // class O_Plane_Fighter_03_dynamicLoadout_F {
     //     cost = 15000;

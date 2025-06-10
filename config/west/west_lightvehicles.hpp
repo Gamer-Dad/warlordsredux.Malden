@@ -158,39 +158,39 @@ class LightVehicles {
         requirements[] = {};
     }; // "HEMTT Repair"
 
-    // class B_LSV_01_AT_UP_F {
-    //     capValue = 1;
-    //     cost = 1100;
-    //     description = "Prowler (AT UP) is a variant of the Prowler AT.";
-    //     killReward = 250;
-    //     name = "Prowler (AT UP)";
-    //     offset[] = {0, 5, 0};
-    //     rearm = 200;
-    //     requirements[] = {};
-    //     spawn = "B_LSV_01_AT_F";
-    //     variant = 1;
+    class B_LSV_01_AT_UP_F {
+        capValue = 1;
+        cost = 1100;
+        description = "Prowler (AT UP) is a variant of the Prowler AT armed with a Firefist AT missile launcher.";
+        killReward = 250;
+        name = "Prowler (AT UP)";
+        offset[] = {0, 5, 0};
+        rearm = 200;
+        requirements[] = {};
+        spawn = "B_LSV_01_AT_F";
+        variant = 1;
 
-    //     class Gunner: WLTurretDefaults {
-    //         addMagazines[] = {
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles"
-    //         };
-    //         addWeapons[] = {
-    //             "missiles_Firefist"
-    //         };
-    //         reloadOverride = 6;
-    //         removeMagazines[] = {
-    //             "1Rnd_GAT_missiles"
-    //         };
-    //         removeWeapons[] = {
-    //             "missiles_titan_static"
-    //         };
-    //         turret[] = { 0 };
-    //     };
-    // };
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles",
+                "2Rnd_127mm_Firefist_missiles"
+            };
+            addWeapons[] = {
+                "missiles_Firefist"
+            };
+            reloadOverride = 6;
+            removeMagazines[] = {
+                "1Rnd_GAT_missiles"
+            };
+            removeWeapons[] = {
+                "missiles_titan_static"
+            };
+            turret[] = { 0 };
+        };
+    };
 
     class B_MRAP_01_gmg_F {
         aps = 1;

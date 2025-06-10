@@ -128,40 +128,40 @@ class RemoteControl {
         killReward = 400;
         name = "K40R (Recon)";
         rearm = 300;
-        requirements[] = {"A"};
+        requirements[] = {"H"};
         spawn = "O_UAV_02_dynamicLoadout_F";
     };
 
-    // class O_T_UAV_04_CAS_F {
-    //     cost = 6000;
-    //     hasHMD = 1;
-    //     killReward = 600;
-    //     rearm = 300;
-    //     requirements[] = {"A"};
+        class O_UAV_02_dynamicLoadout_F {
+        allowPylonMagazines[] = {
+            "PylonRack_12Rnd_PG_missiles"
+        };
+        cost = 8000;
+        hasHMD = 1;
+        killReward = 600;
+        rearm = 300;
+        requirements[] = {"H"};
+    }; // "K40 Ababil-3"
 
-    //     class Pilot: WLTurretDefaults {
-    //         addMagazines[] = {
-    //             "240Rnd_CMFlare_Chaff_Magazine"
-    //         };
-    //         addWeapons[] = {};
-    //         removeMagazines[] = {
-    //             "120Rnd_CMFlare_Chaff_Magazine"
-    //         };
-    //         removeWeapons[] = {};
-    //         turret[] = { -1 };
-    //     };
-    // }; // "KH-3A Fenghuang"
+    class O_T_UAV_04_CAS_F {
+        cost = 6000;
+        hasHMD = 1;
+        killReward = 600;
+        rearm = 300;
+        requirements[] = {"H"};
 
-    // class O_UAV_02_dynamicLoadout_F {
-    //     allowPylonMagazines[] = {
-    //         "PylonRack_12Rnd_PG_missiles"
-    //     };
-    //     cost = 8000;
-    //     hasHMD = 1;
-    //     killReward = 600;
-    //     rearm = 300;
-    //     requirements[] = {"A"};
-    // }; // "K40 Ababil-3"
+        class Pilot: WLTurretDefaults {
+            addMagazines[] = {
+                "240Rnd_CMFlare_Chaff_Magazine"
+            };
+            addWeapons[] = {};
+            removeMagazines[] = {
+                "120Rnd_CMFlare_Chaff_Magazine"
+            };
+            removeWeapons[] = {};
+            turret[] = { -1 };
+        };
+    }; // "KH-3A Fenghuang"
 
     // class B_Ship_MRLS_01_F {
     //     cost = 30000;

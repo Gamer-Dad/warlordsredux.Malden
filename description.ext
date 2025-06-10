@@ -4,17 +4,19 @@
 #include "config\tasks.hpp"
 #include "config\projectiles.hpp"
 
-onLoadName = "Warlords Redux 2b.0.2";
+onLoadName = "WLRedux Malden 2.6.0-beta.1";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
 zeusCompositionScriptLevel = 2;
-adminIDs[] = {"76561198034106257", "76561198049721952", "76561197960667971", "76561198025492474"};
-pollstersIDs[] = {"76561198025492474"};
+
+adminIDs[] = {"76561198034106257", "76561198049721952", "76561197960667971", "76561198025492474","76561198362318263" };
+moderatorIDs[] = {"76561198838508285", "76561198118302464", "76561198362318263", "76561198159567208", "76561198113095233", "76561198070499844"};
+spectatorIDs[] = {"76561198159567208", "76561198113095233"};
 
 //Settings
 respawn = 3;
-respawnDelay = 30;
+respawnDelay = 40;
 respawnOnStart = -1;
 disabledAI = 1;
 enableDebugConsole = 1;
