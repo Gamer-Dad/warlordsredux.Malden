@@ -3,6 +3,7 @@
 #include "config\customization.hpp"
 #include "config\tasks.hpp"
 #include "config\projectiles.hpp"
+#include "config\sectors.hpp"
 
 onLoadName = "Warlords Redux 2b.0.2";
 dev = "Jezuro + WSV";
@@ -10,7 +11,8 @@ author = "Jezuro + WSV";
 allowFunctionsLog = 1;
 zeusCompositionScriptLevel = 2;
 adminIDs[] = {"76561198034106257", "76561198049721952", "76561197960667971", "76561198025492474"};
-pollstersIDs[] = {"76561198025492474"};
+moderatorIDs[] = {"76561198838508285", "76561198118302464", "76561198362318263", "76561198159567208", "76561198113095233", "76561198070499844"};
+spectatorIDs[] = {"76561198159567208", "76561198113095233"};
 
 //Settings
 respawn = 3;
@@ -37,29 +39,6 @@ weaponholderRemovalMaxTime = 180; //36000
 
 disposalCheckPeriod = 20;
 minPlayerDistance[] = {150, 300, 075, 0600, 1800, 0300};
-
-BIS_WL_sectorResetTimeout = 300;
-BIS_WL_sectorVotingDuration = 30;
-
-BIS_WL_scanCost = 750;
-BIS_WL_fastTravelCostContested = 200;
-WL_airAssaultCost = 100;
-WL_vehicleParadropCost = 1000;
-BIS_WL_fastTravelCostSquadLeader = 10;
-BIS_WL_orderFTVehicleCost = 200;
-BIS_WL_fundsTransferCost = 2000;
-BIS_WL_targetResetCost = 500;
-BIS_WL_maxCP = 50000;
-BIS_WL_arsenalCost = 1000;
-BIS_WL_assetLimit = 10;
-BIS_WL_scanCooldown = 300;
-BIS_WL_lastLoadoutCost = 100;
-BIS_WL_savedLoadoutCost = 500;
-BIS_WL_baseValue = 50;
-BIS_WL_autonomous_limit = 2;
-BIS_WL_minAPSDist = 1000; //actual range = √x
-BIS_WL_maxAPSDist = 1600; //actual range = √x
-WL2_MinBaseDistance = 3;
 
 onPauseScript[] = {WL2_fnc_onPause};
 
