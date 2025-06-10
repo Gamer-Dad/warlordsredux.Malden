@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=100;
+		nextID=102;
 	};
 	class Camera
 	{
@@ -348,7 +348,7 @@ class Mission
 			init="this setVariable [""BIS_WL_services"", [""H""]]; this setVariable [""BIS_WL_canBeBase"", FALSE]; this setVariable [""BIS_WL_name"", ""Airport Military Base""];";
 			id=28;
 			type="Logic";
-			atlOffset=16.9519;
+			atlOffset=16.951942;
 		};
 		class Item10
 		{
@@ -649,7 +649,7 @@ class Mission
 			};
 			id=103;
 			type="EmptyDetectorAreaR250";
-			atlOffset=10.11974;
+			atlOffset=10.119781;
 		};
 		class Item33
 		{
