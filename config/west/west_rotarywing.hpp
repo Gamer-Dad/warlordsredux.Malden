@@ -70,7 +70,7 @@ class RotaryWing {
             };
             turret[] = { 2 };
         };
-    };
+    }; // "UH-80 Ghost Hawk UP"
 
     class B_Heli_Light_01_dynamicLoadout_F {
         cost = 2500;
@@ -114,7 +114,7 @@ class RotaryWing {
             };
             turret[] = { -1 };
         };
-    };
+    }; // "AH-9 Pawnee Block II"
 
     class B_Heli_light_03_dynamicLoadout_F {
         allowPylonMagazines[] = {
@@ -163,48 +163,49 @@ class RotaryWing {
         };
     }; // "AH-99 Blackfoot"
 
-    // class B_Heli_Attack_01_sead_F {
-    //     allowPylonMagazines[] = {
-    //         "PylonMissile_1Rnd_AAA_missiles",
-    //         "PylonMissile_1Rnd_LG_scalpel",
-    //         "PylonRack_12Rnd_PG_missiles",
-    //         "PylonRack_12Rnd_missiles"
-    //     };
-    //     cost = 14000;
-    //     description = "AH-99 Blackfoot (SEAD)";
-    //     hasHMD = 1;
-    //     killReward = 550;
-    //     offset[] = {0, 10, 0};
-    //     rearm = 700;
-    //     requirements[] = {"H"};
-    //     spawn = "B_Heli_Attack_01_dynamicLoadout_F";
-    //     variant = 1;
-    //
-    //     class Pilot: WLTurretDefaults {
-    //         addMagazines[] = {
-    //             "192Rnd_CMFlare_Chaff_Magazine",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1",
-    //             "magazine_Missile_HARM_x1"
-    //         };
-    //         addWeapons[] = {
-    //             "CMFlareLauncher_Singles",
-    //             "weapon_HARMLauncher"
-    //         };
-    //         removeMagazines[] = {};
-    //         removeWeapons[] = {
-    //             "CMFlareLauncher"
-    //         };
-    //         turret[] = { -1 };
-    //     };
-    // };
+    class B_Heli_Attack_01_sead_F {
+        allowPylonMagazines[] = {
+            "PylonMissile_1Rnd_AAA_missiles",
+            "PylonMissile_1Rnd_LG_scalpel",
+            "PylonRack_12Rnd_PG_missiles",
+            "PylonRack_12Rnd_missiles"
+        };
+        cost = 14000;
+        description = "AH-99 Blackfoot (SEAD)";
+        hasHMD = 1;
+        killReward = 550;
+        name= AH-99 Blackfoot (SEAD);
+        offset[] = {0, 10, 0};
+        rearm = 700;
+        requirements[] = {"H"};
+        spawn = "B_Heli_Attack_01_dynamicLoadout_F";
+        variant = 1;
+    
+        class Pilot: WLTurretDefaults {
+            addMagazines[] = {
+                "192Rnd_CMFlare_Chaff_Magazine",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1",
+                "magazine_Missile_HARM_x1"
+            };
+            addWeapons[] = {
+                "CMFlareLauncher_Singles",
+                "weapon_HARMLauncher"
+            };
+            removeMagazines[] = {};
+            removeWeapons[] = {
+                "CMFlareLauncher"
+            };
+            turret[] = { -1 };
+        };
+    }; // "AH-99 Blackfoot (SEAD)"
 };

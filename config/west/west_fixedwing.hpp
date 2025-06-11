@@ -6,99 +6,99 @@ class FixedWing {
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
-    };
+    }; // "Caesar BTT"
 
-    class B_Plane_Caesar_hmggmg_01_F {
-        cost = 1500;
-        description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
-        killReward = 300;
-        name = "Caesar BTT (HMG/GMG)";
-        rearm = 300;
-        requirements[] = {"A"};
-        spawn = "C_Plane_Civil_01_F";
-        variant = 1;
+    // class B_Plane_Caesar_hmggmg_01_F {
+    //     cost = 1500;
+    //     description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
+    //     killReward = 300;
+    //     name = "Caesar BTT (HMG/GMG)";
+    //     rearm = 300;
+    //     requirements[] = {"A"};
+    //     spawn = "C_Plane_Civil_01_F";
+    //     variant = 1;
     
-        class Pilot: WLTurretDefaults {
-            turret[] = { -1 };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            addMagazines[] = {
-                "500Rnd_127x99_mag_Tracer_Yellow",
-                "500Rnd_127x99_mag_Tracer_Yellow",
-                "96Rnd_40mm_G_belt",
-                "96Rnd_40mm_G_belt",
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "HMG_127",
-                "GMG_40mm",
-                "CMFlareLauncher"
-            };
-        };
-    };
+    //     class Pilot: WLTurretDefaults {
+    //         turret[] = { -1 };
+    //         removeMagazines[] = {};
+    //         removeWeapons[] = {};
+    //         addMagazines[] = {
+    //             "500Rnd_127x99_mag_Tracer_Yellow",
+    //             "500Rnd_127x99_mag_Tracer_Yellow",
+    //             "96Rnd_40mm_G_belt",
+    //             "96Rnd_40mm_G_belt",
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "HMG_127",
+    //             "GMG_40mm",
+    //             "CMFlareLauncher"
+    //         };
+    //     };
+    // };
 
-    class B_Plane_Caesar_rocket_01_F {
-        cost = 1800;
-        description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
-        killReward = 300;
-        name = "Caesar BTT (Rocket)";
-        rearm = 400;
-        requirements[] = {"A"};
-        spawn = "C_Plane_Civil_01_F";
-        variant = 1;
+    // class B_Plane_Caesar_rocket_01_F {
+    //     cost = 1800;
+    //     description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
+    //     killReward = 300;
+    //     name = "Caesar BTT (Rocket)";
+    //     rearm = 400;
+    //     requirements[] = {"A"};
+    //     spawn = "C_Plane_Civil_01_F";
+    //     variant = 1;
 
-        class Pilot: WLTurretDefaults {
-            turret[] = { -1 };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            addMagazines[] = {
-                "14Rnd_80mm_rockets",
-                "14Rnd_80mm_rockets",
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "rockets_Skyfire",
-                "CMFlareLauncher"
-            };
-        };
-    };
+    //     class Pilot: WLTurretDefaults {
+    //         turret[] = { -1 };
+    //         removeMagazines[] = {};
+    //         removeWeapons[] = {};
+    //         addMagazines[] = {
+    //             "14Rnd_80mm_rockets",
+    //             "14Rnd_80mm_rockets",
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "rockets_Skyfire",
+    //             "CMFlareLauncher"
+    //         };
+    //     };
+    // }; // "Caesar BTT (Rocket)"
 
-    class B_Plane_Caesar_bomb_01_F {
-        cost = 2000;
-        description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
-        killReward = 300;
-        name = "Caesar BTT (Bomb)";
-        rearm = 400;
-        requirements[] = {"A"};
-        spawn = "C_Plane_Civil_01_F";
-        variant = 1;
+    // class B_Plane_Caesar_bomb_01_F {
+    //     cost = 2000;
+    //     description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
+    //     killReward = 300;
+    //     name = "Caesar BTT (Bomb)";
+    //     rearm = 400;
+    //     requirements[] = {"A"};
+    //     spawn = "C_Plane_Civil_01_F";
+    //     variant = 1;
     
-        class Pilot: WLTurretDefaults {
-            turret[] = { -1 };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            addMagazines[] = {
-                "2Rnd_Mk82",
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "Mk82BombLauncher",
-                "CMFlareLauncher"
-            };
-        };
-    };
+    //     class Pilot: WLTurretDefaults {
+    //         turret[] = { -1 };
+    //         removeMagazines[] = {};
+    //         removeWeapons[] = {};
+    //         addMagazines[] = {
+    //             "2Rnd_Mk82",
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "Mk82BombLauncher",
+    //             "CMFlareLauncher"
+    //         };
+    //     };
+    // }; // "Caesar BTT (Bomb)"
 
-    class B_T_VTOL_01_infantry_F {
-        cost = 2000;
-        killReward = 300;
-        requirements[] = {"A"};
-    }; // "V-44 X Blackfish (Inf)"
+    // class B_T_VTOL_01_infantry_F {
+    //     cost = 2000;
+    //     killReward = 300;
+    //     requirements[] = {"A"};
+    // }; // "V-44 X Blackfish (Inf)"
 
-    class B_T_VTOL_01_vehicle_F {
-        cost = 2000;
-        killReward = 300;
-        requirements[] = {"A"};
-    }; // "V-44 X Blackfish (Vic)"
+    // class B_T_VTOL_01_vehicle_F {
+    //     cost = 2000;
+    //     killReward = 300;
+    //     requirements[] = {"A"};
+    // }; // "V-44 X Blackfish (Vic)"
 
     // class B_T_VTOL_01_recon_F {
     //     cost = 3800;
@@ -123,7 +123,7 @@ class FixedWing {
     //             "CMFlareLauncher_Singles"
     //         };
     //     };
-    // };
+    // }; // "V-44 X Blackfish (AWACS)"
 
     // class B_T_VTOL_01_armed_F {
     //     cost = 8000;

@@ -69,7 +69,7 @@ class RemoteControl {
                 "SMG_01_F"
             };
         };
-    };
+    }; // "AR-2 Darter UP"
 
     class B_UGV_01_rcws_UP_F {
         cost = 1200;
@@ -100,7 +100,7 @@ class RemoteControl {
                 "cannon_20mm"
             };
         };
-    };
+    }; // "UGV Stomper UP"
 
     class B_UAV_02_recon_F {
         cost = 2000;
@@ -122,17 +122,17 @@ class RemoteControl {
         killReward = 400;
         name = "MQ-4R Greyhawk (Recon)";
         rearm = 300;
-        requirements[] = {"A"};
+        requirements[] = {"H"};
         spawn = "B_UAV_02_dynamicLoadout_F";
     }; // "MQ-4R Greyhawk (Recon)"
 
-    // class B_UAV_02_dynamicLoadout_F {
-    //     cost = 8000;
-    //     hasHMD = 1;
-    //     killReward = 600;
-    //     rearm = 300;
-    //     requirements[] = {"A"};
-    // }; // "Greyhawk"
+    class B_UAV_02_dynamicLoadout_F {
+        cost = 8000;
+        hasHMD = 1;
+        killReward = 600;
+        rearm = 300;
+        requirements[] = {"H"};
+    }; // "Greyhawk"
 
     class B_T_UAV_03_dynamicLoadout_F {
         cost = 11000;
@@ -158,7 +158,7 @@ class RemoteControl {
     //     cost = 22500;
     //     killReward = 650;
     //     rearm = 500;
-    //     requirements[] = {"A"};
+    //     requirements[] = {"H"};
 
     //     class Pilot: WLTurretDefaults {
     //         turret[] = { -1 };

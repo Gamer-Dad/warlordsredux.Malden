@@ -36,7 +36,7 @@ class HeavyVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "MSE-3M Marid Autocannon"
 
     class O_APC_Tracked_02_recon_F {
         aps = 2;
@@ -167,7 +167,7 @@ class HeavyVehicles {
     //         };
     //         turret[] = { 0 };
     //     };
-    // };
+    // }; // "T-100E Badger"
 
     // class O_MBT_02_cannon_F {
     //     aps = 3;
