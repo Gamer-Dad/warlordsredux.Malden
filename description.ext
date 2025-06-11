@@ -5,7 +5,7 @@
 #include "config\projectiles.hpp"
 #include "config\sectors.hpp"
 
-onLoadName = "WLRedux Malden 2.6.0-beta.1";
+onLoadName = "WLRedux Malden 2.0.0-beta.1";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
@@ -49,3 +49,4 @@ class Header
 	minPlayers = 1;
 	maxPlayers = 128;
 };
+// This line achieves nothing its just a small text that says "imyipbn"

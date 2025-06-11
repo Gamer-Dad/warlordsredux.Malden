@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=98;
+		nextID=100;
 	};
 	class Camera
 	{
-		pos[]={8187.4346,115.38447,2973.3416};
-		dir[]={-0.22478534,-0.56890959,0.79108369};
-		up[]={-0.15549918,0.82240003,0.54724592};
-		aside[]={0.96192074,0,0.27332845};
+		pos[]={7008.5078,65.492516,12371.558};
+		dir[]={0.073028974,-0.16474776,-0.98368627};
+		up[]={0.012202186,0.98631853,-0.16435802};
+		aside[]={-0.99730349,1.6725335e-07,-0.074039929};
 	};
 };
 binarizationWanted=0;
@@ -179,14 +179,14 @@ class ScenarioData
 {
 	author="Jezuro+WSV";
 	overviewText="Warlords Redux introduces hundreds of improvements of the original Warlords.";
-	overViewPicture="src\img\wl_logo_ca.paa";
+	overViewPicture="config\wl_logo_ca_malden.paa";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="WLRedux Malden 2.6.0-beta.1 | WSV";
-		overviewText="WLRedux Malden 2.6.0-beta.1";
+		briefingName="WLRedux Malden 2.0.0-beta.1 | WSV";
+		overviewText="WLRedux Malden 2.0.0-beta.1";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -6490,7 +6490,7 @@ class Mission
 				};
 			};
 			id=2414;
-			atlOffset=76.972488;
+			atlOffset=78.69783;
 		};
 		class Item50
 		{
