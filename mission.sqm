@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=100;
+		nextID=103;
 	};
 	class Camera
 	{
-		pos[]={7008.5078,65.492516,12371.558};
-		dir[]={0.073028974,-0.16474776,-0.98368627};
-		up[]={0.012202186,0.98631853,-0.16435802};
-		aside[]={-0.99730349,1.6725335e-07,-0.074039929};
+		pos[]={7012.4365,113.62907,12396.708};
+		dir[]={0.3497692,-0.52645111,-0.7749263};
+		up[]={0.21657868,0.8502053,-0.47983786};
+		aside[]={-0.91145766,0,-0.4113937};
 	};
 };
 binarizationWanted=0;
@@ -178,15 +178,15 @@ randomSeed=3694325;
 class ScenarioData
 {
 	author="Jezuro+WSV";
-	overviewText="Warlords Redux introduces hundreds of improvements of the original Warlords.";
+	overviewText="WLRedux Malden is the Map Port of WLRedux Altis running on Warlords EU#11, Things are meant to break please report them on our Discord";
 	overViewPicture="config\wl_logo_ca_malden.paa";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="WLRedux Malden 2.0.0-beta.1 | WSV";
-		overviewText="WLRedux Malden 2.0.0-beta.1";
+		briefingName="WLRedux Malden 2.0.0-beta | WSV";
+		overviewText="WLRedux Malden 2.0.0-beta";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
