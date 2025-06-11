@@ -134,30 +134,11 @@ class RemoteControl {
         requirements[] = {"H"};
     }; // "Greyhawk"
 
-    // class B_T_UAV_03_dynamicLoadout_F {
-    //     cost = 11000;
-    //     hasHMD = 1;
-    //     killReward = 600;
-    //     rearm = 600;
-    //     requirements[] = {"H"};
-
-    //     class Pilot: WLTurretDefaults {
-    //         turret[] = { -1 };
-    //         removeMagazines[] = {
-    //             "120Rnd_CMFlare_Chaff_Magazine"
-    //         };
-    //         removeWeapons[] = {};
-    //         addMagazines[] = {
-    //             "240Rnd_CMFlare_Chaff_Magazine"
-    //         };
-    //         addWeapons[] = {};
-    //     };
-    // }; // "Falcon"
-
-    class B_UAV_05_F {
-        cost = 22500;
-        killReward = 650;
-        rearm = 500;
+    class B_T_UAV_03_dynamicLoadout_F {
+        cost = 11000;
+        hasHMD = 1;
+        killReward = 600;
+        rearm = 600;
         requirements[] = {"H"};
 
         class Pilot: WLTurretDefaults {
@@ -171,5 +152,24 @@ class RemoteControl {
             };
             addWeapons[] = {};
         };
-    }; // "UCAV Sentinel"
+    }; // "Falcon"
+
+    // class B_UAV_05_F {
+    //     cost = 22500;
+    //     killReward = 650;
+    //     rearm = 500;
+    //     requirements[] = {"H"};
+
+    //     class Pilot: WLTurretDefaults {
+    //         turret[] = { -1 };
+    //         removeMagazines[] = {
+    //             "120Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         removeWeapons[] = {};
+    //         addMagazines[] = {
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {};
+    //     };
+    // }; // "UCAV Sentinel"
 };
