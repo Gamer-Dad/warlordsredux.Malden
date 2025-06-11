@@ -1,12 +1,11 @@
 class HeavyVehicles {
-    class B_APC_Tracked_01_rcws_F {
-        aps = 2;
-        capValue = 3;
-        cost = 1300;
-        killReward = 300;
-        rearm = 400;
-        requirements[] = {};
-
+    // class B_APC_Tracked_01_rcws_F {
+    //     aps = 2;
+    //     capValue = 3;
+    //     cost = 1300;
+    //     killReward = 300;
+    //     rearm = 400;
+    //     requirements[] = {};
         // class Gunner: WLTurretDefaults {
         //     addMagazines[] = {
         //         "60Rnd_30mm_APFSDS_shells_Tracer_Red",
@@ -25,16 +24,16 @@ class HeavyVehicles {
         //     };
         //     turret[] = { 0 };
         // };
-    }; // "IFV-6c Panther"
+    // }; // "IFV-6c Panther"
 
-    class B_APC_Tracked_01_CRV_F {
-        aps = 2;
-        capValue = 2;
-        cost = 1700;
-        killReward = 300;
-        rearm = 400;
-        requirements[] = {};
-    }; // "CRV-6e Bobcat"
+    // class B_APC_Tracked_01_CRV_F {
+    //     aps = 2;
+    //     capValue = 2;
+    //     cost = 1700;
+    //     killReward = 300;
+    //     rearm = 400;
+    //     requirements[] = {};
+    // }; // "CRV-6e Bobcat"
 
     class B_APC_tracked_03_cannon_F {
         aps = 2;
@@ -51,7 +50,7 @@ class HeavyVehicles {
             "A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
             "A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa"
         };
-    };
+    }; // FV-720 Mora
 
     class B_APC_Wheeled_01_cannon_F {
         aps = 2;
@@ -91,7 +90,7 @@ class HeavyVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "AMV-7 Marshall (Recon)"
 
     class B_APC_Wheeled_03_cannon_F {
         aps = 2;
@@ -159,7 +158,7 @@ class HeavyVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "AMV-7 Marshall UP"
 
     // class B_AFV_Wheeled_01_export_cannon_F {
     //     aps = 2;
@@ -191,7 +190,7 @@ class HeavyVehicles {
     //         };
     //         turret[] = { 0 };
     //     };
-    // };
+    // }; // "Rhino MGS-E"
 
     // class B_AFV_Wheeled_01_cannon_F {
     //     aps = 2;
@@ -253,7 +252,7 @@ class HeavyVehicles {
     //         "src\img\camo\kuma03.jpg",
     //         "\a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
     //     };
-    //};
+    //}; // "M52 Kuma"
 
     // class B_MBT_01_TUSK_Railgun_F {
     //     aps = 3;
@@ -286,7 +285,7 @@ class HeavyVehicles {
     //         };
     //         turret[] = { 0 };
     //     };
-    // };
+    // }; // "M2X Slammer (Railgun)"
 
     // class B_MBT_01_arty_F {
     //     aps = 1;

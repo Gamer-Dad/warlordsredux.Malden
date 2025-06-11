@@ -159,7 +159,7 @@ class SectorDefense {
     //         };
     //         turret[] = { 0 };
     //     };
-    // };
+    // }; // "Mk30X Minigun (Raised)"
 
     class B_static_AT_F {
         cost = 300;
@@ -216,7 +216,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Mk30 HMG Auto Turret (Raised)"
 
     class B_GMG_01_A_F {
         cost = 650;
@@ -271,7 +271,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Static AT/AA Launcher (UP)"
 
     // class Land_MobileRadar_01_radar_F {
     //     cost = 2500;
@@ -283,7 +283,7 @@ class SectorDefense {
     //     offset[] = {0, 6, 0};
     //     requirements[] = {};
     // This is not loadable. It will break initialization code to load this.
-    // };
+    // }; // "EW Tower"
 
     class B_Mortar_01_F {
         cost = 4000;
@@ -334,7 +334,7 @@ class SectorDefense {
     //         };
     //         turret[] = { 0 };
     //     };
-    // };
+    // }; // "Switchblade Launcher"
 
     // class B_Ship_Gun_01_F {
     //     cost = 10000;

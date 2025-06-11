@@ -14,7 +14,7 @@ class Spawn {
     class Land_TentA_F {
         garbageCollector = 1;
         name = "Deployed Tent";
-    };
+    }; // 'Deployed Tent'
 
     class ForwardBaseSupplies {
         cost = 500;
@@ -23,10 +23,10 @@ class Spawn {
         loadable[] = { 0, 0, 0 };
         name = "Forward Base Supplies";
         spawn = "VirtualReammoBox_camonet_F";
-    };
+    };  // 'Forward Base Supply"
 
     class RuggedTerminal_01_communications_hub_F {
         killReward = 500;
         name = "Forward Base";
-    };
+    }; // 'Forward Base"
 };

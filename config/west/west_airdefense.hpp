@@ -80,7 +80,7 @@ class AirDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "IFV-SAAMI Jaguar"
 
     class B_APC_Tracked_01_AA_F {
         aps = 2;
@@ -152,7 +152,7 @@ class AirDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "IFV-6X Puma"
 
     // class B_SAM_System_01_F {
     //     cost = 10000;

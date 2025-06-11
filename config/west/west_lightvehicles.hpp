@@ -190,7 +190,7 @@ class LightVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // Prowler (AT UP)
 
     class B_MRAP_01_gmg_F {
         aps = 1;
@@ -285,5 +285,5 @@ class LightVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Prowler (Spike AT)"
 };

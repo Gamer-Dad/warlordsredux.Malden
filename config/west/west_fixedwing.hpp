@@ -6,7 +6,7 @@ class FixedWing {
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
-    };
+    }; // "Caesar BTT"
 
     // class B_Plane_Caesar_hmggmg_01_F {
     //     cost = 1500;
@@ -61,7 +61,7 @@ class FixedWing {
     //             "CMFlareLauncher"
     //         };
     //     };
-    // };
+    // }; // "Caesar BTT (Rocket)"
 
     // class B_Plane_Caesar_bomb_01_F {
     //     cost = 2000;
@@ -86,7 +86,7 @@ class FixedWing {
     //             "CMFlareLauncher"
     //         };
     //     };
-    // };
+    // }; // "Caesar BTT (Bomb)"
 
     // class B_T_VTOL_01_infantry_F {
     //     cost = 2000;
@@ -123,7 +123,7 @@ class FixedWing {
     //             "CMFlareLauncher_Singles"
     //         };
     //     };
-    // };
+    // }; // "V-44 X Blackfish (AWACS)"
 
     // class B_T_VTOL_01_armed_F {
     //     cost = 8000;

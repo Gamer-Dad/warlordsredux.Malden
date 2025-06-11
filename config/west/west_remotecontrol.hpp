@@ -69,7 +69,7 @@ class RemoteControl {
                 "SMG_01_F"
             };
         };
-    };
+    }; // "AR-2 Darter UP"
 
     class B_UGV_01_rcws_UP_F {
         cost = 1200;
@@ -100,7 +100,7 @@ class RemoteControl {
                 "cannon_20mm"
             };
         };
-    };
+    }; // "UGV Stomper UP"
 
     class B_UAV_02_recon_F {
         cost = 2000;
