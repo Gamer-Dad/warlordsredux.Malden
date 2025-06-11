@@ -54,7 +54,7 @@ class RotaryWing {
             };
             turret[] = { -1 };
         };
-    };
+    }; // "Mi-290 Taru (Recon)"
 
     // class O_Heli_Transport_02_AWACS_F {
     //     cost = 3800;
@@ -72,7 +72,7 @@ class RotaryWing {
     //         "A3\Air_F_Beta\Heli_Transport_02\Data\Skins\Heli_Transport_02_3_DAHOMAN_CO.paa",
     //         "A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
     //     };
-    // };
+    // }; // "CH-49 Mohawk (AWACS)"
 
     class O_Heli_Light_02_dynamicLoadout_F {
         cost = 4000;

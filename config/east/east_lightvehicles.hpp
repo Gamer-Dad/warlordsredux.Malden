@@ -243,7 +243,7 @@ class LightVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Ifrit-M Autocannon"
 
     class O_Truck_03_device_F {
         aps = 4;
@@ -285,5 +285,5 @@ class LightVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // Qilin (Spike AT)
 };

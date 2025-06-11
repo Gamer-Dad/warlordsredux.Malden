@@ -186,7 +186,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Mk30 HMG Auto Turret (Raised)"
 
     class O_GMG_01_A_F {
         cost = 650;
@@ -197,7 +197,7 @@ class SectorDefense {
         offset[] = {0, 3, 0};
         rearm = 300;
         requirements[] = {};
-    };
+    }; // "Mk32 GMG Auto Turret (Raised)"
 
     class O_static_AT_UP_F {
         cost = 700;
@@ -241,7 +241,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Static Titan Launcher (AT/AA) [UP]"
 
     // class Land_MobileRadar_01_radar_F {
     //     cost = 2500;
@@ -252,7 +252,7 @@ class SectorDefense {
     //     name = "EW Tower";
     //     offset[] = {0, 6, 0};
     //     requirements[] = {};
-    // };
+    // }; // "EW Tower"
 
     class O_Mortar_01_F {
         cost = 4000;
@@ -303,5 +303,5 @@ class SectorDefense {
     //         };
     //         turret[] = { 0 };
     //     };
-    // };
+    // }; // "Lancet Launcher"
 };

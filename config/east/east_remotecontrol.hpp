@@ -69,7 +69,7 @@ class RemoteControl {
             removeWeapons[] = {};
             turret[] = { 0 };
         };
-    };
+    }; // "AR-2 Darter UP"
 
     class O_UGV_01_rcws_up_F {
         cost = 1200;
@@ -100,7 +100,7 @@ class RemoteControl {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "UGV Stomper UP"
 
     class O_UAV_02_recon_F {
         cost = 2000;
@@ -130,7 +130,7 @@ class RemoteControl {
         rearm = 300;
         requirements[] = {"H"};
         spawn = "O_UAV_02_dynamicLoadout_F";
-    };
+    }; // "K40R (Recon)"
 
         class O_UAV_02_dynamicLoadout_F {
         allowPylonMagazines[] = {

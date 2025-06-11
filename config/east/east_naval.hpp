@@ -58,5 +58,5 @@ class Naval {
             };
             turret[] = { 0 };
         };
-    };
+    }; // "Alligator Attack Boat"
 };

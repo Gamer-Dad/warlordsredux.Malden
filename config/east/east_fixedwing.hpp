@@ -6,7 +6,7 @@ class FixedWing {
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
-    };
+    }; // "Caesar BTT"
 
     // class O_Plane_Caesar_hmggmg_01_F {
     //     cost = 1500;
