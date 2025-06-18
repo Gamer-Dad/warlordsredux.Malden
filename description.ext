@@ -47,6 +47,6 @@ class Header
 {
 	gameType = Warlords;
 	minPlayers = 1;
-	maxPlayers = 128;
+	maxPlayers = 96;
 };
 // This line achieves nothing its just a small text that says "imyipbn"
