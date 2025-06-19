@@ -1,164 +1,155 @@
 class HeavyVehicles {
-    // class B_APC_Tracked_01_rcws_F {
-    //     aps = 2;
-    //     capValue = 3;
-    //     cost = 1300;
-    //     killReward = 300;
-    //     rearm = 400;
-    //     requirements[] = {};
-        // class Gunner: WLTurretDefaults {
-        //     addMagazines[] = {
-        //         "60Rnd_30mm_APFSDS_shells_Tracer_Red",
-        //         "60Rnd_30mm_APFSDS_shells_Tracer_Red",
-        //         "140Rnd_30mm_MP_shells_Tracer_Red",
-        //         "140Rnd_30mm_MP_shells_Tracer_Red"
-        //     };
-        //     addWeapons[] = {
-        //         "autocannon_30mm_CTWS"
-        //     };
-        //     removeMagazines[] = {
-        //         "96Rnd_40mm_G_belt"
-        //     };
-        //     removeWeapons[] = {
-        //         "GMG_40mm"
-        //     };
-        //     turret[] = { 0 };
-        // };
-    // }; // "IFV-6c Panther"
-
-    // class B_APC_Tracked_01_CRV_F {
-    //     aps = 2;
-    //     capValue = 2;
-    //     cost = 1700;
-    //     killReward = 300;
-    //     rearm = 400;
-    //     requirements[] = {};
-    // }; // "CRV-6e Bobcat"
-
-    class B_APC_tracked_03_cannon_F {
+        class B_APC_Wheeled_03_rcws_F {
         aps = 2;
-        capValue = 4;
-        cost = 2500;
-        killReward = 400;
-        name = "FV-720 Mora";
-        rearm = 500;
-        requirements[] = {};
-        spawn = "I_APC_tracked_03_cannon_F";
-        textures[] = {
-            "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext_eaf_co.paa",
-            "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext2_eaf_co.paa",
-            "A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
-            "A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa"
+        capValue = 2;
+        cost = 1500;
+        disallowMagazines[] = {
+            "4Rnd_GAA_missiles"
         };
-    }; // FV-720 Mora
+        rearm = 500;
+        name = "LAV-III Stryker ICV";
+        description = "The Stryker is a family of eight-wheeled armored fighting vehicles derived from the Canadian LAV III."
+        requirements[] = {};
+        spawn = "I_APC_Wheeled_03_cannon_F"
+        variant = 1;
+        textures[] = {
+        "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext_eaf_co.paa",
+        "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext2_eaf_co.paa",
+        "A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
+        "A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa"
+        };
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "96Rnd_40mm_G_belt",
+                "96Rnd_40mm_G_belt"
+            };
+            addWeapons[] = {
+                "GMG_40mm"
+            };
+            removeMagazines[] = {
+                "60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+                "60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+                "140Rnd_30mm_MP_shells_Tracer_Yellow",
+                "140Rnd_30mm_MP_shells_Tracer_Yellow",
+                "5Rnd_GAT_missiles",
+                "5Rnd_GAT_missiles",
+                "2Rnd_GAT_missiles"
+            };
+            removeWeapons[] = {
+                "missiles_titan",
+                "autocannon_40mm_CTWS"
+            };
+            turret[] = { 0 };
+        };
+    }; // "LAV-III Stryker ICV"
 
-    class B_APC_Wheeled_01_cannon_F {
+        class B_APC_Wheeled_01_cannon_F {
         aps = 2;
         capValue = 3;
         cost = 2700;
-        killReward = 300;
         rearm = 500;
         requirements[] = {};
     }; // "AMV-7 Marshall"
 
-    class B_APC_Wheeled_01_recon_F {
+    class B_APC_Tracked_01_CRV_F {
         aps = 2;
-        capValue = 1;
-        cost = 2700;
-        description = "AMV-7 Marshall (Recon) is a variant of the AMV-7 Marshall armed with a powerful scanner.";
-        hasHMD = 1;
-        hasScanner = 1;
+        capValue = 2;
+        cost = 2500;
         killReward = 300;
-        name = "AMV-7 Marshall (Recon)";
-        rearm = 500;
+        rearm = 400;
         requirements[] = {};
-        spawn = "B_APC_Wheeled_01_cannon_F";
-        variant = 1;
+    }; // "CRV-6e Bobcat"
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {};
-            addWeapons[] = {};
-            hideTurret = 1;
-            removeMagazines[] = {
-                "200Rnd_762x51_Belt_Red",
-                "40Rnd_40mm_APFSDS_Tracer_Red_shells",
-                "60Rnd_40mm_GPR_Tracer_Red_shells"
-            };
-            removeWeapons[] = {
-                "LMG_coax",
-                "autocannon_40mm_CTWS"
-            };
-            turret[] = { 0 };
-        };
-    }; // "AMV-7 Marshall (Recon)"
-
-    class B_APC_Wheeled_03_cannon_F {
+    class B_APC_Tracked_01_rcws_F {
         aps = 2;
         capValue = 3;
-        cost = 2900;
-        disallowMagazines[] = {
-            "4Rnd_GAA_missiles"
-        };
+        cost = 1300;
         killReward = 300;
-        rearm = 500;
+        rearm = 400;
         requirements[] = {};
-        textures[] = {
-            "\A3\armor_f_gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_co.paa",
-            "\A3\armor_f_gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext2_co.paa",
-            "\A3\armor_f_gamma\APC_Wheeled_03\Data\rcws30_co.paa",
-            "\A3\armor_f_gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_alpha_co.paa"
-        };
-
         class Gunner: WLTurretDefaults {
             addMagazines[] = {
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles"
+                "60Rnd_30mm_APFSDS_shells_Tracer_Red",
+                "60Rnd_30mm_APFSDS_shells_Tracer_Red",
+                "140Rnd_30mm_MP_shells_Tracer_Red",
+                "140Rnd_30mm_MP_shells_Tracer_Red"
             };
             addWeapons[] = {
-                "missiles_titan"
+                "autocannon_30mm_CTWS"
             };
             removeMagazines[] = {
-                "2Rnd_GAT_missiles"
+                "96Rnd_40mm_G_belt"
             };
             removeWeapons[] = {
-                "missiles_titan"
+                "GMG_40mm"
             };
             turret[] = { 0 };
         };
-    }; // "AFV-4 Gorgon"
+    }; // "IFV-6c Panther"
 
-    class B_APC_Wheeled_01_cannon_up_F {
-        aps = 2;
-        capValue = 3;
-        cost = 3200;
-        description = "AMV-7 Marshall UP is a variant of the AMV-7 Marshall armed with a larger magazine 40mm cannon.";
-        killReward = 300;
-        name = "AMV-7 Marshall UP";
-        rearm = 500;
-        requirements[] = {};
-        spawn = "B_APC_Wheeled_01_cannon_F";
-        variant = 1;
+    // class B_APC_Wheeled_01_recon_F {
+    //     aps = 2;
+    //     capValue = 1;
+    //     cost = 2700;
+    //     description = "AMV-7 Marshall (Recon) is a variant of the AMV-7 Marshall armed with a powerful scanner.";
+    //     hasHMD = 1;
+    //     hasScanner = 1;
+    //     killReward = 300;
+    //     name = "AMV-7 Marshall (Recon)";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "B_APC_Wheeled_01_cannon_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_40mm_GPR_Tracer_Red_shells",
-                "240Rnd_40mm_GPR_Tracer_Red_shells",
-                "160Rnd_40mm_APFSDS_Tracer_Red_shells",
-                "160Rnd_40mm_APFSDS_Tracer_Red_shells"
-            };
-            addWeapons[] = {
-                "autocannon_40mm_VTOL_01"
-            };
-            removeMagazines[] = {
-                "60Rnd_40mm_GPR_Tracer_Red_shells",
-                "40Rnd_40mm_APFSDS_Tracer_Red_shells"
-            };
-            removeWeapons[] = {
-                "autocannon_40mm_CTWS"
-            };
-            turret[] = { 0 };
-        };
-    }; // "AMV-7 Marshall UP"
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {};
+    //         addWeapons[] = {};
+    //         hideTurret = 1;
+    //         removeMagazines[] = {
+    //             "200Rnd_762x51_Belt_Red",
+    //             "40Rnd_40mm_APFSDS_Tracer_Red_shells",
+    //             "60Rnd_40mm_GPR_Tracer_Red_shells"
+    //         };
+    //         removeWeapons[] = {
+    //             "LMG_coax",
+    //             "autocannon_40mm_CTWS"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; // "AMV-7 Marshall (Recon)"
+
+    // class B_APC_Wheeled_01_cannon_up_F {
+    //     aps = 2;
+    //     capValue = 3;
+    //     cost = 3200;
+    //     description = "AMV-7 Marshall UP is a variant of the AMV-7 Marshall armed with a larger magazine 40mm cannon.";
+    //     killReward = 300;
+    //     name = "AMV-7 Marshall UP";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "B_APC_Wheeled_01_cannon_F";
+    //     variant = 1;
+
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "240Rnd_40mm_GPR_Tracer_Red_shells",
+    //             "240Rnd_40mm_GPR_Tracer_Red_shells",
+    //             "160Rnd_40mm_APFSDS_Tracer_Red_shells",
+    //             "160Rnd_40mm_APFSDS_Tracer_Red_shells"
+    //         };
+    //         addWeapons[] = {
+    //             "autocannon_40mm_VTOL_01"
+    //         };
+    //         removeMagazines[] = {
+    //             "60Rnd_40mm_GPR_Tracer_Red_shells",
+    //             "40Rnd_40mm_APFSDS_Tracer_Red_shells"
+    //         };
+    //         removeWeapons[] = {
+    //             "autocannon_40mm_CTWS"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; // "AMV-7 Marshall UP"
 
     // class B_AFV_Wheeled_01_export_cannon_F {
     //     aps = 2;
