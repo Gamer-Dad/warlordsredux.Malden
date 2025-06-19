@@ -2,7 +2,7 @@ class LightVehicles {
     class O_Quadbike_01_F {
         capValue = 1;
         cost = 20;
-        killReward = 20;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // "Quad Bike"
@@ -10,7 +10,7 @@ class LightVehicles {
     class O_G_Offroad_01_armed_F {
         capValue = 1;
         cost = 150;
-        killReward = 150;
+        
         offset[] = {0, 5, 0};
         rearm = 120;
         requirements[] = {};
@@ -36,7 +36,7 @@ class LightVehicles {
     class O_G_Offroad_01_AT_F {
         capValue = 1;
         cost = 500;
-        killReward = 180;
+        
         offset[] = {0, 5, 0};
         rearm = 180;
         requirements[] = {};
@@ -59,7 +59,7 @@ class LightVehicles {
     class O_LSV_02_armed_F {
         capValue = 1;
         cost = 200;
-        killReward = 150;
+        
         offset[] = {0, 5, 0};
         rearm = 200;
         requirements[] = {};
@@ -68,7 +68,7 @@ class LightVehicles {
     class O_LSV_02_AT_F {
         capValue = 1;
         cost = 750;
-        killReward = 200;
+        
         offset[] = {0, 5, 0};
         rearm = 200;
         requirements[] = {};
@@ -94,7 +94,7 @@ class LightVehicles {
         class O_MRAP_02_F {
         capValue = 1;
         cost = 300;
-        killReward = 70;
+        
         requirements[] = {};
     }; // "Ifrit"
 
@@ -102,7 +102,7 @@ class LightVehicles {
         aps = 1;
         capValue = 2;
         cost = 900;
-        killReward = 250;
+        
         rearm = 300;
         requirements[] = {};
     }; // "Ifrit HMG"
@@ -111,7 +111,7 @@ class LightVehicles {
         aps = 1;
         capValue = 2;
         cost = 1250;
-        killReward = 250;
+        
         rearm = 300;
         requirements[] = {};
     }; // "Ifrit GMG"
@@ -119,7 +119,7 @@ class LightVehicles {
     class O_Truck_01_flatbed_F {
         capValue = 1;
         cost = 500;
-        killReward = 80;
+        
         name = "HEMTT Flatbed";
         requirements[] = {};
         spawn = "B_Truck_01_flatbed_F";
@@ -134,28 +134,28 @@ class LightVehicles {
     class O_Truck_03_transport_F {
         capValue = 1;
         cost = 200;
-        killReward = 80;
+        
         requirements[] = {};
     }; // "Tempest Transport"
 
     class O_Truck_03_ammo_F {
         capValue = 1;
         cost = 1000;
-        killReward = 80;
+        
         requirements[] = {};
     }; // "Tempest Ammo"
 
     class O_Truck_03_Fuel_F {
         capValue = 1;
         cost = 1000;
-        killReward = 80;
+        
         requirements[] = {};
     }; // "Tempest Fuel"
 
     class O_Truck_03_Repair_F {
         capValue = 1;
         cost = 1000;
-        killReward = 80;
+        
         requirements[] = {};
     }; // "Tempest Repair"
     
@@ -163,7 +163,7 @@ class LightVehicles {
         aps = 4;
         capValue = 1;
         cost = 1500;
-        killReward = 200;
+        
         requirements[] = {};
     }; // "Tempest Device"
 
@@ -171,7 +171,7 @@ class LightVehicles {
         capValue = 1;
         cost = 1100;
         description = "Qilin (AT-M) is a variant of the Qilin armed with a Firefist AT missile launcher.";
-        killReward = 220;
+        
         name = "Qilin (AT-M)";
         offset[] = {0, 5, 0};
         rearm = 200;
@@ -206,7 +206,7 @@ class LightVehicles {
         capValue = 2;
         cost = 1500;
         description = "Ifrit-M is a variant of the Ifrit armed with a 20mm autocannon.";
-        killReward = 300;
+        
         name = "Ifrit-M Autocannon";
         rearm = 300;
         requirements[] = {};
@@ -244,7 +244,7 @@ class LightVehicles {
         capValue = 1;
         cost = 2000;
         description = "Qilin (Spike AT) is a variant of the Prowler AT.";
-        killReward = 250;
+        
         name = "Qilin (Spike AT)";
         offset[] = {0, 5, 0};
         rearm = 200;

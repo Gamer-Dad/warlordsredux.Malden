@@ -1,7 +1,7 @@
 class RemoteControl {
     class O_UGV_02_Demining_F {
         cost = 100;
-        killReward = 100;
+        
         offset[] = {0, 3, 0};
         rearm = 200;
         requirements[] = {};
@@ -9,7 +9,7 @@ class RemoteControl {
 
     class O_UGV_01_F {
         cost = 150;
-        killReward = 50;
+        
         offset[] = {0, 5, 0};
         requirements[] = {};
     };  // "UGV Stomper"
@@ -17,14 +17,14 @@ class RemoteControl {
     class O_UAV_01_F {
         cost = 500;
         hasHMD = 1;
-        killReward = 100;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     };  // "AR-2"
 
     class O_UGV_01_rcws_F {
         cost = 500;
-        killReward = 100;
+        
         offset[] = {0, 5, 0};
         rearm = 300;
         requirements[] = {};
@@ -32,7 +32,7 @@ class RemoteControl {
 
     class O_UAV_06_F {
         cost = 1000;
-        killReward = 200;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     };  // "AR-6"
@@ -41,7 +41,7 @@ class RemoteControl {
         cost = 1200;
         description = "AR-2 Darter UP is a variant of the AR-2 Darter armed with a 45ACP SMG.";
         hasHMD = 1;
-        killReward = 200;
+        
         name = "AR-2 Darter UP";
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -74,7 +74,7 @@ class RemoteControl {
     class O_UGV_01_rcws_up_F {
         cost = 1200;
         description = "UGV Stomper UP is a variant of the UGV Stomper armed with a 30mm autocannon.";
-        killReward = 300;
+        
         name = "UGV Stomper UP";
         offset[] = {0, 5, 0};
         rearm = 300;
@@ -125,7 +125,7 @@ class RemoteControl {
         };
         hasHMD = 1;
         hasScanner = 1;
-        killReward = 400;
+        
         name = "K40R (Recon)";
         rearm = 300;
         requirements[] = {"H"};
@@ -138,7 +138,7 @@ class RemoteControl {
         };
         cost = 8000;
         hasHMD = 1;
-        killReward = 600;
+        
         rearm = 300;
         requirements[] = {"H"};
     }; // "K40 Ababil-3"
@@ -146,7 +146,7 @@ class RemoteControl {
     class O_T_UAV_04_CAS_F {
         cost = 6000;
         hasHMD = 1;
-        killReward = 600;
+        
         rearm = 300;
         requirements[] = {"H"};
 
@@ -168,6 +168,6 @@ class RemoteControl {
     //     requirements[] = {};
     //     offset[] = {0, 7, 0};
     //     rearm = 2700;
-    //     killReward = 700;
+    //     
     // };  // "Mk41 VLS"
 };

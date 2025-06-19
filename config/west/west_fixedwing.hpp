@@ -2,7 +2,7 @@ class FixedWing {
     class B_Plane_Civil_01_F {
         cost = 800;
         description = "Caesar BTT is a light unarmed aircraft.";
-        killReward = 200;
+        
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
@@ -11,7 +11,7 @@ class FixedWing {
     // class B_Plane_Caesar_hmggmg_01_F {
     //     cost = 1500;
     //     description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
-    //     killReward = 300;
+    //     
     //     name = "Caesar BTT (HMG/GMG)";
     //     rearm = 300;
     //     requirements[] = {"A"};
@@ -40,7 +40,7 @@ class FixedWing {
     // class B_Plane_Caesar_rocket_01_F {
     //     cost = 1800;
     //     description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
-    //     killReward = 300;
+    //     
     //     name = "Caesar BTT (Rocket)";
     //     rearm = 400;
     //     requirements[] = {"A"};
@@ -66,7 +66,7 @@ class FixedWing {
     // class B_Plane_Caesar_bomb_01_F {
     //     cost = 2000;
     //     description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
-    //     killReward = 300;
+    //     
     //     name = "Caesar BTT (Bomb)";
     //     rearm = 400;
     //     requirements[] = {"A"};
@@ -90,13 +90,13 @@ class FixedWing {
 
     // class B_T_VTOL_01_infantry_F {
     //     cost = 2000;
-    //     killReward = 300;
+    //     
     //     requirements[] = {"A"};
     // }; // "V-44 X Blackfish (Inf)"
 
     // class B_T_VTOL_01_vehicle_F {
     //     cost = 2000;
-    //     killReward = 300;
+    //     
     //     requirements[] = {"A"};
     // }; // "V-44 X Blackfish (Vic)"
 
@@ -105,7 +105,7 @@ class FixedWing {
     //     description = "V-44 X Blackfish (AWACS) is a variant of the V-44 X Blackfish with a powerful air radar.";
     //     hasAWACS = 1;
     //     hasHMD = 1;
-    //     killReward = 300;
+    //     
     //     name = "V-44 X Blackfish (AWACS)";
     //     requirements[] = {"A"};
     //     spawn = "B_T_VTOL_01_infantry_F";
@@ -127,14 +127,14 @@ class FixedWing {
 
     // class B_T_VTOL_01_armed_F {
     //     cost = 8000;
-    //     killReward = 350;
+    //     
     //     rearm = 500;
     //     requirements[] = {"A"};
     // }; // "V-44 X Blackfish (Armed)"
 
     // class B_Plane_CAS_01_dynamicLoadout_F {
     //     cost = 15000;
-    //     killReward = 800;
+    //     
     //     rearm = 900;
     //     requirements[] = {"A"};
 
@@ -158,7 +158,7 @@ class FixedWing {
     //     };
     //     cost = 23000;
     //     description = "A-149 Gryphon is a light multirole aircraft.";
-    //     killReward = 600;
+    //     
     //     name = "A-149 Gryphon";
     //     rearm = 900;
     //     requirements[] = {"A"};
@@ -178,7 +178,7 @@ class FixedWing {
     //         "PylonRack_Missile_HARM_x1"
     //     };
     //     cost = 30000;
-    //     killReward = 1000;
+    //     
     //     rearm = 900;
     //     requirements[] = {"A"};
     // }; // "F/A-181 Black Wasp II"
@@ -188,7 +188,7 @@ class FixedWing {
     //         "PylonRack_Missile_HARM_x1"
     //     };
     //     cost = 35000;
-    //     killReward = 1000;
+    //     
     //     rearm = 900;
     //     requirements[] = {"A"};
     // }; // "F/A-181 Black Wasp II (Stealth)"

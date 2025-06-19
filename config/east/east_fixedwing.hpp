@@ -2,7 +2,7 @@ class FixedWing {
     class O_Plane_Civil_01_F {
         cost = 800;
         description = "Caesar BTT is a light unarmed aircraft.";
-        killReward = 200;
+        
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
@@ -11,7 +11,7 @@ class FixedWing {
     // class O_Plane_Caesar_hmggmg_01_F {
     //     cost = 1500;
     //     description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
-    //     killReward = 300;
+    //     
     //     name = "Caesar BTT (HMG/GMG)";
     //     rearm = 300;
     //     requirements[] = {"A"};
@@ -40,7 +40,7 @@ class FixedWing {
     // class O_Plane_Caesar_rocket_01_F {
     //     cost = 1800;
     //     description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
-    //     killReward = 300;
+    //     
     //     name = "Caesar BTT (Rocket)";
     //     rearm = 400;
     //     requirements[] = {"A"};
@@ -66,7 +66,7 @@ class FixedWing {
     // class O_Plane_Caesar_bomb_01_F {
     //     cost = 2000;
     //     description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
-    //     killReward = 300;
+    //     
     //     name = "Caesar BTT (Bomb)";
     //     rearm = 400;
     //     requirements[] = {"A"};
@@ -90,7 +90,7 @@ class FixedWing {
 
     // class O_T_VTOL_02_infantry_dynamicLoadout_F {
     //     cost = 14000;
-    //     killReward = 600;
+    //     
     //     rearm = 700;
     //     requirements[] = {"A"};
     // }; // "Y-32 Xi'an (Infantry Transport)"
@@ -98,7 +98,7 @@ class FixedWing {
     // class O_Plane_Fighter_03_dynamicLoadout_F {
     //     cost = 15000;
     //     description = "A-143 Buzzard is a light CAS aircraft.";
-    //     killReward = 600;
+    //     
     //     name = "A-143 Buzzard";
     //     rearm = 900;
     //     requirements[] = {"A"};
@@ -123,7 +123,7 @@ class FixedWing {
 
     // class O_Plane_CAS_02_dynamicLoadout_F {
     //     cost = 20000;
-    //     killReward = 900;
+    //     
     //     rearm = 900;
     //     requirements[] = {"A"};
 
@@ -148,7 +148,7 @@ class FixedWing {
     //     disallowMagazines[] = {
     //         "PylonMissile_Missile_KH58_x1"
     //     };
-    //     killReward = 1100;
+    //     
     //     rearm = 900;
     //     requirements[] = {"A"};
     // }; // "To-201 Shikra (Stealth)"
@@ -161,7 +161,7 @@ class FixedWing {
     //     disallowMagazines[] = {
     //         "PylonMissile_Missile_KH58_x1"
     //     };
-    //     killReward = 1100;
+    //     
     //     rearm = 900;
     //     requirements[] = {"A"};
     // }; // "To-201 Shikra"

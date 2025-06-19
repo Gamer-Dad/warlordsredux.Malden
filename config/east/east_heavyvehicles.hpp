@@ -39,7 +39,7 @@ class HeavyVehicles {
         aps = 2;
         capValue = 4;
         cost = 2500;
-        killReward = 400;
+        
         name = "FV-127 Nira";
         rearm = 500;
         requirements[] = {};
@@ -69,7 +69,7 @@ class HeavyVehicles {
     //     capValue = 3;
     //     cost = 2600;
     //     description = "MSE-3M Marid is a variant of the MSE-3 Marid armed with a 30mm autocannon.";
-    //     killReward = 300;
+    //     
     //     name = "MSE-3M Marid Autocannon";
     //     rearm = 500;
     //     requirements[] = {};
@@ -101,7 +101,7 @@ class HeavyVehicles {
     //     description = "BTR-K Kamysh (Recon) is a variant of the BTR-K Kamysh armed with a powerful scanner.";
     //     hasHMD = 1;
     //     hasScanner = 1;
-    //     killReward = 300;
+    //     
     //     name = "BTR-K Kamysh (Recon)";
     //     rearm = 500;
     //     requirements[] = {};
@@ -134,7 +134,7 @@ class HeavyVehicles {
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };
-        killReward = 350;
+        
         rearm = 500;
         requirements[] = {};
 
@@ -164,7 +164,7 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "4Rnd_GAA_missiles"
     //     };
-    //     killReward = 350;
+    //     
     //     name = "BMP-K Kamysh";
     //     rearm = 500;
     //     requirements[] = {};
@@ -199,7 +199,7 @@ class HeavyVehicles {
     //     capValue = 4;
     //     cost = 5500;
     //     description = "T-100E Badger is a downgraded export variant of the T-100 Varsuk.";
-    //     killReward = 500;
+    //     
     //     name = "T-100E Badger";
     //     rearm = 600;
     //     requirements[] = {};
@@ -229,7 +229,7 @@ class HeavyVehicles {
     //     aps = 3;
     //     capValue = 4;
     //     cost = 7500;
-    //     killReward = 500;
+    //     
     //     rearm = 600;
     //     requirements[] = {};
     // }; // "T-100 Varsuk"
@@ -238,7 +238,7 @@ class HeavyVehicles {
     //     aps = 3;
     //     capValue = 4;
     //     cost = 11000;
-    //     killReward = 550;
+    //     
     //     rearm = 600;
     //     requirements[] = {};
     // }; // "T-140 Angara"
@@ -247,7 +247,7 @@ class HeavyVehicles {
     //     aps = 3;
     //     capValue = 4;
     //     cost = 13000;
-    //     killReward = 600;
+    //     
     //     rearm = 600;
     //     requirements[] = {};
     // }; // "T-140K Angara"
@@ -258,7 +258,7 @@ class HeavyVehicles {
     //     cost = 13500;
     //     description = "T-140N Yukon is a variant of the T-140 Angara armed with a NATO 120mm cannon.";
     //     flagOffset[] = {-0.69, -3.1, 1.8};
-    //     killReward = 800;
+    //     
     //     name = "T-140N Yukon";
     //     rearm = 600;
     //     requirements[] = {};
@@ -295,7 +295,7 @@ class HeavyVehicles {
     //     aps = 3;
     //     capValue = 4;
     //     cost = 15000;
-    //     killReward = 500;
+    //     
     //     rearm = 600;
     //     requirements[] = {};
     // }; // "T-100 Futura"
@@ -307,7 +307,7 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "12Rnd_230mm_rockets_cluster"
     //     };
-    //     killReward = 600;
+    //     
     //     rearm = 1800;
     //     requirements[] = {};
     //     textures[] = {
@@ -325,7 +325,7 @@ class HeavyVehicles {
     //         "2Rnd_155mm_Mo_Cluster",
     //         "2Rnd_155mm_Mo_Cluster_O"
     //     };
-    //     killReward = 600;
+    //     
     //     rearm = 1800;
     //     requirements[] = {};
     // }; // "2S9 Sochor"

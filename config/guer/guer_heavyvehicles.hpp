@@ -3,7 +3,7 @@ class HeavyVehicles {
         aps = 1;
         capValue = 4;
         cost = 1500;
-        killReward = 240;
+        
         rearm = 300;
         requirements[] = {};
         vehicleSpawn = 1;
@@ -34,7 +34,7 @@ class HeavyVehicles {
         aps = 1;
         capValue = 4;
         cost = 1500;
-        killReward = 240;
+        
         rearm = 300;
         requirements[] = {};
         vehicleSpawn = 1;
@@ -61,14 +61,14 @@ class HeavyVehicles {
     class I_MBT_03_cannon_F {
         aps = 3;
         capValue = 5;
-        killReward = 400;
+        
         vehicleSpawn = 1;
     };  // "MBT-52 Kuma"
 
     class I_APC_Wheeled_03_cannon_F {
         aps = 2;
         capValue = 5;
-        killReward = 400;
+        
         vehicleSpawn = 1;
 
         class Gunner: WLTurretDefaults {
@@ -92,7 +92,7 @@ class HeavyVehicles {
     class I_APC_tracked_03_cannon_F {
         aps = 3;
         capValue = 5;
-        killReward = 400;
+        
         vehicleSpawn = 1;
     };  // "FV-720 Mora"
 };

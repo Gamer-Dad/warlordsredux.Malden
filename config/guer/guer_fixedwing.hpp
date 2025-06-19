@@ -2,7 +2,7 @@ class FixedWing {
     class I_Plane_Civil_01_F {
         cost = 800;
         description = "Caesar BTT is a light unarmed aircraft.";
-        killReward = 200;
+        
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "I_C_Plane_Civil_01_F";
@@ -11,7 +11,7 @@ class FixedWing {
     class I_Plane_Caesar_hmggmg_01_F {
         cost = 1500;
         description = "Caesar BTT (HMG/GMG) is a variant of the Caesar BTT armed with a HMG and GMG.";
-        killReward = 300;
+        
         name = "Caesar BTT (HMG/GMG)";
         rearm = 300;
         requirements[] = {"A"};
@@ -40,7 +40,7 @@ class FixedWing {
     class I_Plane_Caesar_rocket_01_F {
         cost = 1800;
         description = "Caesar BTT (Rocket) is a variant of the Caesar BTT armed with rockets.";
-        killReward = 300;
+        
         name = "Caesar BTT (Rocket)";
         rearm = 400;
         requirements[] = {"A"};
@@ -66,7 +66,7 @@ class FixedWing {
     class I_Plane_Caesar_bomb_01_F {
         cost = 2000;
         description = "Caesar BTT (Bomb) is a variant of the Caesar BTT armed with a pair of Mk82 bombs.";
-        killReward = 300;
+        
         name = "Caesar BTT (Bomb)";
         rearm = 400;
         requirements[] = {"A"};
@@ -89,13 +89,13 @@ class FixedWing {
     };
 
     class I_Plane_Fighter_03_CAS_F {
-        killReward = 500;
+        
     };
 
     class I_Plane_Fighter_03_dynamicLoadout_F {
         aircraftSpawn = 1;
         cost = 15000;
-        killReward = 500;
+        
         rearm = 900;
         requirements[] = {"A"};
     };  // "A-143 Buzzard (CAS)"
@@ -103,7 +103,7 @@ class FixedWing {
     class I_Plane_Fighter_04_F {
         aircraftSpawn = 1;
         cost = 23000;
-        killReward = 500;
+        
         rearm = 900;
         requirements[] = {"A"};
     };  // "A-149 Gryphon"
