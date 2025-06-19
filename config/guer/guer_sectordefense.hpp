@@ -2,7 +2,6 @@ class SectorDefense {
     class Land_Razorwire_F {
         cost = 50;
         demolishable = 1;
-        
         offset[] = {0, 5, 0};
         requirements[] = {};
     };  // "Razor Wire Fence"
@@ -10,7 +9,6 @@ class SectorDefense {
     class Land_BagFence_Round_F {
         cost = 50;
         demolishable = 1;
-        
         offset[] = {0, 2, 0};
         requirements[] = {};
     };  // "Semi Circle Sand bags"
@@ -18,7 +16,6 @@ class SectorDefense {
     class Land_DragonsTeeth_01_4x2_new_F {
         cost = 50;
         demolishable = 1;
-        
         offset[] = {0, 5, 0};
         requirements[] = {};
     };  // "Tank barrier"
@@ -26,7 +23,6 @@ class SectorDefense {
     class Land_HBarrierWall6_F {
         cost = 60;
         demolishable = 1;
-        
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // "H-barrier wall"
@@ -35,14 +31,12 @@ class SectorDefense {
         cost = 100;
         demolishable = 1;
         garbageCollect = 1;
-        
         offset[] = {0, 6, 0};
         requirements[] = {};
     };  // "Camouflage Vehicle Cover (Hex)"
 
     class I_HMG_01_F {
         cost = 150;
-        
         loadable[] = {0, -2.5, 0.4};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -77,7 +71,6 @@ class SectorDefense {
 
     class I_HMG_01_high_F {
         cost = 200;
-        
         loadable[] = {0, -2.5, 0.8};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -103,7 +96,6 @@ class SectorDefense {
 
     class I_GMG_01_F {
         cost = 200;
-        
         loadable[] = {0, -2.5, 0.4};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -112,7 +104,6 @@ class SectorDefense {
 
     class I_GMG_01_high_F {
         cost = 250;
-        
         loadable[] = {0, -2.5, 0.8};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -121,7 +112,6 @@ class SectorDefense {
 
     class I_static_AA_F {
         cost = 300;
-        
         loadable[] = {0, -2.5, 0.2};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -149,7 +139,6 @@ class SectorDefense {
 
     class I_static_AT_F {
         cost = 300;
-        
         loadable[] = {0, -2.5, 0.2};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -177,7 +166,6 @@ class SectorDefense {
 
     class I_HMG_01_A_F {
         cost = 500;
-        
         loadable[] = {0, -2.5, 0.4};
         name = "Mk30 HMG Auto Turret";
         offset[] = {0, 3, 0};
@@ -208,7 +196,6 @@ class SectorDefense {
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };
-        
         loadable[] = {0, -2.5, 0.2};
         name = "Static AT Launcher (UP)";
         offset[] = {0, 3, 0};
@@ -255,7 +242,6 @@ class SectorDefense {
         requirements[] = {};
         spawn = "I_static_AA_F";
         variant = 1;
-
         class Gunner: WLTurretDefaults {
             addMagazines[] = {
                 "4Rnd_70mm_SAAMI_missiles",
@@ -277,7 +263,6 @@ class SectorDefense {
 
     class I_GMG_01_A_F {
         cost = 650;
-        
         loadable[] = {0, -2.5, 0.4};
         name = "Mk32 GMG Auto Turret";
         offset[] = {0, 3, 0};
@@ -290,7 +275,6 @@ class SectorDefense {
     //     demolishable = 1;
     //     description = "EW Tower can be used to jam enemy autonomous assets and provide EW support to your team. It must be placed outside the home base in an owned sector.";
     //     garbageCollect = 1;
-    //     
     //     name = "EW Tower";
     //     offset[] = {0, 6, 0};
     //     requirements[] = {};
@@ -298,7 +282,6 @@ class SectorDefense {
 
     class I_Mortar_01_F {
         cost = 4000;
-        
         loadable[] = {0, -2.5, 0};
         offset[] = {0, 3, 0};
         rearm = 900;
