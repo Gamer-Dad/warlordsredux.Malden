@@ -3,78 +3,134 @@ class HeavyVehicles {
         aps = 2;
         capValue = 2;
         cost = 1500;
-        killReward = 300;
         rearm = 400;
         requirements[] = {};
     }; // "MSE-3 Marid"
-
-    class O_APC_Wheeled_02_rcws_v2_m_F {
+    
+    class O_APC_Wheeled_03_cannon_F {
         aps = 2;
         capValue = 3;
-        cost = 2600;
-        description = "MSE-3M Marid is a variant of the MSE-3 Marid armed with a 30mm autocannon.";
-        killReward = 300;
-        name = "MSE-3M Marid Autocannon";
+        cost = 2700;
+        disallowMagazines[] = {
+            "4Rnd_GAA_missiles"
+        };
         rearm = 500;
         requirements[] = {};
-        spawn = "O_APC_Wheeled_02_rcws_v2_F";
-        variant = 1;
-
+        spawn = "I_APC_Wheeled_03_cannon_F"
         class Gunner: WLTurretDefaults {
             addMagazines[] = {
-                "250Rnd_30mm_HE_shells_Tracer_Red",
-                "250Rnd_30mm_APDS_shells_Tracer_Red"
+                "5Rnd_GAT_missiles",
+                "5Rnd_GAT_missiles"
             };
             addWeapons[] = {
-                "gatling_30mm"
+                "missiles_titan"
             };
             removeMagazines[] = {
-                "96Rnd_40mm_G_belt"
+                "2Rnd_GAT_missiles"
             };
             removeWeapons[] = {
-                "GMG_40mm"
+                "missiles_titan"
             };
             turret[] = { 0 };
         };
-    }; // "MSE-3M Marid Autocannon"
+    }; // "AFV-4 Gorgon"
 
-    class O_APC_Tracked_02_recon_F {
+    class O_APC_tracked_03_rcws_F {
         aps = 2;
-        capValue = 1;
-        cost = 2700;
-        description = "BTR-K Kamysh (Recon) is a variant of the BTR-K Kamysh armed with a powerful scanner.";
-        hasHMD = 1;
-        hasScanner = 1;
-        killReward = 300;
-        name = "BTR-K Kamysh (Recon)";
+        capValue = 4;
+        cost = 2500;
+        killReward = 400;
+        name = "FV-127 Nira";
         rearm = 500;
         requirements[] = {};
-        spawn = "O_APC_Tracked_02_cannon_F";
-        variant = 1;
-
+        spawn = "I_APC_tracked_03_cannon_F";
+        textures[] = {
+            "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext_eaf_co.paa",
+            "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext2_eaf_co.paa",
+            "A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
+            "A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa"
+        };
         class Gunner: WLTurretDefaults {
-            addMagazines[] = {};
-            addWeapons[] = {};
-            hideTurret = 1;
             removeMagazines[] = {
-                "2Rnd_GAT_missiles_O",
-                "140Rnd_30mm_MP_shells_Tracer_Green",
-                "60Rnd_30mm_APFSDS_shells_Tracer_Green",
-                "200Rnd_762x51_Belt_Green"
+                "60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+                "60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+                "140Rnd_30mm_MP_shells_Tracer_Yellow",
+                "140Rnd_30mm_MP_shells_Tracer_Yellow"
             };
             removeWeapons[] = {
-                "missiles_titan",
-                "autocannon_30mm_CTWS",
-                "LMG_coax_ext"
+                "autocannon_40mm_CTWS"
             };
             turret[] = { 0 };
         };
-    };
+    }; // "FV-420 Nira"
+
+    // class O_APC_Wheeled_02_rcws_v2_m_F {
+    //     aps = 2;
+    //     capValue = 3;
+    //     cost = 2600;
+    //     description = "MSE-3M Marid is a variant of the MSE-3 Marid armed with a 30mm autocannon.";
+    //     killReward = 300;
+    //     name = "MSE-3M Marid Autocannon";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Wheeled_02_rcws_v2_F";
+    //     variant = 1;
+
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "250Rnd_30mm_HE_shells_Tracer_Red",
+    //             "250Rnd_30mm_APDS_shells_Tracer_Red"
+    //         };
+    //         addWeapons[] = {
+    //             "gatling_30mm"
+    //         };
+    //         removeMagazines[] = {
+    //             "96Rnd_40mm_G_belt"
+    //         };
+    //         removeWeapons[] = {
+    //             "GMG_40mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; // "MSE-3M Marid Autocannon"
+
+    // class O_APC_Tracked_02_recon_F {
+    //     aps = 2;
+    //     capValue = 1;
+    //     cost = 2700;
+    //     description = "BTR-K Kamysh (Recon) is a variant of the BTR-K Kamysh armed with a powerful scanner.";
+    //     hasHMD = 1;
+    //     hasScanner = 1;
+    //     killReward = 300;
+    //     name = "BTR-K Kamysh (Recon)";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Tracked_02_cannon_F";
+    //     variant = 1;
+
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {};
+    //         addWeapons[] = {};
+    //         hideTurret = 1;
+    //         removeMagazines[] = {
+    //             "2Rnd_GAT_missiles_O",
+    //             "140Rnd_30mm_MP_shells_Tracer_Green",
+    //             "60Rnd_30mm_APFSDS_shells_Tracer_Green",
+    //             "200Rnd_762x51_Belt_Green"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan",
+    //             "autocannon_30mm_CTWS",
+    //             "LMG_coax_ext"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; // "BTR-K Kamysh (Recon)"
 
     class O_APC_Tracked_02_cannon_F {
         aps = 2;
         capValue = 3;
-        cost = 3200;
+        cost = 1300;
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };
@@ -100,43 +156,43 @@ class HeavyVehicles {
         };
     }; // "BTR-K Kamysh"
 
-    class O_APC_Tracked_02_heavy_F {
-        aps = 2;
-        capValue = 3;
-        cost = 5500;
-        description = "BMP-K Kamysh is a variant of the BTR-K Kamysh armed with a 105mm cannon.";
-        disallowMagazines[] = {
-            "4Rnd_GAA_missiles"
-        };
-        killReward = 350;
-        name = "BMP-K Kamysh";
-        rearm = 500;
-        requirements[] = {};
-        spawn = "O_APC_Tracked_02_cannon_F";
-        variant = 1;
+    // class O_APC_Tracked_02_heavy_F {
+    //     aps = 2;
+    //     capValue = 3;
+    //     cost = 5500;
+    //     description = "BMP-K Kamysh is a variant of the BTR-K Kamysh armed with a 105mm cannon.";
+    //     disallowMagazines[] = {
+    //         "4Rnd_GAA_missiles"
+    //     };
+    //     killReward = 350;
+    //     name = "BMP-K Kamysh";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Tracked_02_cannon_F";
+    //     variant = 1;
     
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles",
-                "40Rnd_105mm_APFSDS_T_Red"
-            };
-            addWeapons[] = {
-                "missiles_titan",
-                "cannon_105mm_VTOL_01"
-            };
-            removeMagazines[] = {
-                "2Rnd_GAT_missiles_O",
-                "60Rnd_30mm_APFSDS_shells_Tracer_Green",
-                "140Rnd_30mm_MP_shells_Tracer_Green"
-            };
-            removeWeapons[] = {
-                "missiles_titan",
-                "autocannon_30mm_CTWS"
-            };
-            turret[] = { 0 };
-        };
-    }; //BMP-K Kamysh
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "5Rnd_GAT_missiles",
+    //             "5Rnd_GAT_missiles",
+    //             "40Rnd_105mm_APFSDS_T_Red"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_titan",
+    //             "cannon_105mm_VTOL_01"
+    //         };
+    //         removeMagazines[] = {
+    //             "2Rnd_GAT_missiles_O",
+    //             "60Rnd_30mm_APFSDS_shells_Tracer_Green",
+    //             "140Rnd_30mm_MP_shells_Tracer_Green"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan",
+    //             "autocannon_30mm_CTWS"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; //BMP-K Kamysh
 
     // class O_MBT_02_cannon_export_F {
     //     aps = 3;

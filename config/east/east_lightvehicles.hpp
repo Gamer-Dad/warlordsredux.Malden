@@ -33,60 +33,6 @@ class LightVehicles {
         };
     }; // "Offroad (HMG)"
 
-    class O_LSV_02_armed_F {
-        capValue = 1;
-        cost = 200;
-        killReward = 150;
-        offset[] = {0, 5, 0};
-        rearm = 120;
-        requirements[] = {};
-
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "500Rnd_65x39_Belt_Tracer_Green_Splash",
-                "500Rnd_65x39_Belt_Tracer_Green_Splash",
-                "500Rnd_65x39_Belt_Tracer_Green_Splash"
-            };
-            addWeapons[] = {
-                "LMG_Minigun_Transport"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {
-                "LMG_Minigun_Transport"
-            };
-            turret[] = { 0 };
-        };
-    }; // "Qilin (Minigun)"
-
-    class O_Truck_03_transport_F {
-        capValue = 1;
-        cost = 200;
-        killReward = 80;
-        requirements[] = {};
-    }; // "Tempest Transport"
-
-    class O_MRAP_02_F {
-        capValue = 1;
-        cost = 300;
-        killReward = 70;
-        requirements[] = {};
-    }; // "Ifrit"
-
-    class O_Truck_01_flatbed_F {
-        capValue = 1;
-        cost = 500;
-        killReward = 80;
-        name = "HEMTT Flatbed";
-        requirements[] = {};
-        spawn = "B_Truck_01_flatbed_F";
-        textures[] = {
-            "\a3\soft_f_Exp\truck_01\data\truck_01_ext_01_olive_co.paa",
-            "\a3\soft_f_Exp\truck_01\data\truck_01_ext_02_olive_co.paa",
-            "\a3\Soft_F_Enoch\Truck_01\Data\truck_01_ammo_pacific_co.paa",
-            "\a3\Soft_F_Enoch\Truck_01\Data\Truck_01_cargo_pacific_CO.paa"
-        };
-    }; // "HEMTT Flatbed"
-
     class O_G_Offroad_01_AT_F {
         capValue = 1;
         cost = 500;
@@ -109,6 +55,15 @@ class LightVehicles {
             turret[] = { 0 };
         };
     }; // "Offroad (AT)"
+
+    class O_LSV_02_armed_F {
+        capValue = 1;
+        cost = 200;
+        killReward = 150;
+        offset[] = {0, 5, 0};
+        rearm = 200;
+        requirements[] = {};
+    }; // "Qilin (Minigun)"
 
     class O_LSV_02_AT_F {
         capValue = 1;
@@ -136,6 +91,13 @@ class LightVehicles {
         };
     }; // "Qilin (AT)"
 
+        class O_MRAP_02_F {
+        capValue = 1;
+        cost = 300;
+        killReward = 70;
+        requirements[] = {};
+    }; // "Ifrit"
+
     class O_MRAP_02_hmg_F {
         aps = 1;
         capValue = 2;
@@ -144,6 +106,37 @@ class LightVehicles {
         rearm = 300;
         requirements[] = {};
     }; // "Ifrit HMG"
+
+    class O_MRAP_02_gmg_F {
+        aps = 1;
+        capValue = 2;
+        cost = 1250;
+        killReward = 250;
+        rearm = 300;
+        requirements[] = {};
+    }; // "Ifrit GMG"
+
+    class O_Truck_01_flatbed_F {
+        capValue = 1;
+        cost = 500;
+        killReward = 80;
+        name = "HEMTT Flatbed";
+        requirements[] = {};
+        spawn = "B_Truck_01_flatbed_F";
+        textures[] = {
+            "\a3\soft_f_Exp\truck_01\data\truck_01_ext_01_olive_co.paa",
+            "\a3\soft_f_Exp\truck_01\data\truck_01_ext_02_olive_co.paa",
+            "\a3\Soft_F_Enoch\Truck_01\Data\truck_01_ammo_pacific_co.paa",
+            "\a3\Soft_F_Enoch\Truck_01\Data\Truck_01_cargo_pacific_CO.paa"
+        };
+    }; // "HEMTT Flatbed"
+
+    class O_Truck_03_transport_F {
+        capValue = 1;
+        cost = 200;
+        killReward = 80;
+        requirements[] = {};
+    }; // "Tempest Transport"
 
     class O_Truck_03_ammo_F {
         capValue = 1;
@@ -165,6 +158,14 @@ class LightVehicles {
         killReward = 80;
         requirements[] = {};
     }; // "Tempest Repair"
+    
+    class O_Truck_03_device_F {
+        aps = 4;
+        capValue = 1;
+        cost = 1500;
+        killReward = 200;
+        requirements[] = {};
+    }; // "Tempest Device"
 
     class O_LSV_02_AT_M_F {
         capValue = 1;
@@ -199,15 +200,6 @@ class LightVehicles {
             turret[] = { 0 };
         };
     }; // Qilin (AT-M)
-
-    class O_MRAP_02_gmg_F {
-        aps = 1;
-        capValue = 2;
-        cost = 1250;
-        killReward = 250;
-        rearm = 300;
-        requirements[] = {};
-    }; // "Ifrit GMG"
 
     class O_MRAP_02_gmg_m_F {
         aps = 2;
@@ -244,14 +236,6 @@ class LightVehicles {
             turret[] = { 0 };
         };
     }; // "Ifrit-M Autocannon"
-
-    class O_Truck_03_device_F {
-        aps = 4;
-        capValue = 1;
-        cost = 1500;
-        killReward = 200;
-        requirements[] = {};
-    }; // "Tempest Device"
 
         class O_LSV_01_AT_TV_F {
         ammoOverrides[] = {

@@ -5,14 +5,14 @@
 #include "config\projectiles.hpp"
 #include "config\sectors.hpp"
 
-onLoadName = "WLRedux Malden 2.0.0-beta";
+onLoadName = "WL Redux Malden 2.0.0-b.1";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
 zeusCompositionScriptLevel = 2;
 
 adminIDs[] = {"76561198034106257", "76561198049721952", "76561197960667971", "76561198025492474","76561198362318263" };
-moderatorIDs[] = {"76561198838508285", "76561198118302464", "76561198362318263", "76561198159567208", "76561198113095233", "76561198070499844"};
+moderatorIDs[] = {"76561198838508285", "76561198118302464","76561198159567208", "76561198113095233", "76561198070499844"};
 spectatorIDs[] = {"76561198159567208", "76561198113095233"};
 
 //Settings
@@ -47,6 +47,6 @@ class Header
 {
 	gameType = Warlords;
 	minPlayers = 1;
-	maxPlayers = 128;
+	maxPlayers = 96;
 };
 // This line achieves nothing its just a small text that says "imyipbn"

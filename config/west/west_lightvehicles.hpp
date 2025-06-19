@@ -33,14 +33,30 @@ class LightVehicles {
         };
     }; // "Offroad (HMG)"
 
-    class B_Truck_01_transport_F {
+    class B_G_Offroad_01_AT_F {
         capValue = 1;
-        cost = 200;
-        killReward = 80;
+        cost = 500;
+        killReward = 180;
+        offset[] = {0, 5, 0};
+        rearm = 180;
         requirements[] = {};
-    }; // "HEMTT Transport"
 
-    class B_LSV_01_armed_F {
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "12Rnd_SPG9_HEAT"
+            };
+            addWeapons[] = {
+                "launcher_SPG9"
+            };
+            removeMagazines[] = {};
+            removeWeapons[] = {
+                "launcher_SPG9"
+            };
+            turret[] = { 0 };
+        };
+    }; // "Offroad (AT)"
+
+        class B_LSV_01_armed_F {
         capValue = 1;
         cost = 200;
         killReward = 150;
@@ -64,43 +80,6 @@ class LightVehicles {
             turret[] = { 0 };
         };
     }; // "Prowler (HMG)"
-
-    class B_MRAP_01_F {
-        capValue = 1;
-        cost = 300;
-        killReward = 70;
-        requirements[] = {};
-    }; // "Hunter"
-
-    class B_Truck_01_flatbed_F {
-        capValue = 1;
-        cost = 500;
-        killReward = 80;
-        requirements[] = {};
-    }; // "HEMTT Flatbed"
-
-    class B_G_Offroad_01_AT_F {
-        capValue = 1;
-        cost = 500;
-        killReward = 180;
-        offset[] = {0, 5, 0};
-        rearm = 180;
-        requirements[] = {};
-
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "12Rnd_SPG9_HEAT"
-            };
-            addWeapons[] = {
-                "launcher_SPG9"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {
-                "launcher_SPG9"
-            };
-            turret[] = { 0 };
-        };
-    }; // "Offroad (AT)"
 
     class B_LSV_01_AT_F {
         capValue = 1;
@@ -128,6 +107,13 @@ class LightVehicles {
         };
     }; // "Prowler (AT)"
 
+        class B_MRAP_01_F {
+        capValue = 1;
+        cost = 300;
+        killReward = 70;
+        requirements[] = {};
+    }; // "Hunter"
+
     class B_MRAP_01_hmg_F {
         aps = 1;
         capValue = 2;
@@ -136,6 +122,29 @@ class LightVehicles {
         rearm = 300;
         requirements[] = {};
     }; // "Hunter HMG"
+
+        class B_MRAP_01_gmg_F {
+        aps = 1;
+        capValue = 2;
+        cost = 1250;
+        killReward = 250;
+        rearm = 300;
+        requirements[] = {};
+    }; // "Hunter GMG"
+
+    class B_Truck_01_flatbed_F {
+        capValue = 1;
+        cost = 500;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Flatbed"
+
+    class B_Truck_01_transport_F {
+        capValue = 1;
+        cost = 200;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Transport"
 
     class B_Truck_01_ammo_F {
         capValue = 1;
@@ -157,6 +166,22 @@ class LightVehicles {
         killReward = 80;
         requirements[] = {};
     }; // "HEMTT Repair"
+
+    class B_T_Truck_03_device_F {
+        aps = 4;
+        capValue = 1;
+        cost = 1500;
+        killReward = 200;
+        name = "Tempest (Device)";
+        requirements[] = {};
+        spawn = "O_T_Truck_03_device_ghex_F";
+        textures[] = {
+            "#(argb,8,8,3)color(0.80,0.76,0.66,0.15)",
+            "#(argb,8,8,3)color(0.2,0.25,0.25,0.15)",
+            "#(argb,8,8,3)color(0.2,0.25,0.3,0.15)",
+            "#(argb,8,8,3)color(0.6,0.6,0.4,0.15)"
+        };
+    }; // "Tempest Device"
 
     class B_LSV_01_AT_UP_F {
         capValue = 1;
@@ -191,15 +216,6 @@ class LightVehicles {
             turret[] = { 0 };
         };
     }; // Prowler (AT UP)
-
-    class B_MRAP_01_gmg_F {
-        aps = 1;
-        capValue = 2;
-        cost = 1250;
-        killReward = 250;
-        rearm = 300;
-        requirements[] = {};
-    }; // "Hunter GMG"
 
     class B_MRAP_01_gmg_up_F {
         aps = 2;
@@ -236,22 +252,7 @@ class LightVehicles {
             turret[] = { 0 };
         };
     };
-
-    class B_T_Truck_03_device_F {
-        aps = 4;
-        capValue = 1;
-        cost = 1500;
-        killReward = 200;
-        name = "Tempest (Device)";
-        requirements[] = {};
-        spawn = "O_T_Truck_03_device_ghex_F";
-        textures[] = {
-            "#(argb,8,8,3)color(0.80,0.76,0.66,0.15)",
-            "#(argb,8,8,3)color(0.2,0.25,0.25,0.15)",
-            "#(argb,8,8,3)color(0.2,0.25,0.3,0.15)",
-            "#(argb,8,8,3)color(0.6,0.6,0.4,0.15)"
-        };
-    }; // "Tempest Device"
+    // "Hunter-M Autocannon"
 
     class B_LSV_01_AT_TV_F {
         ammoOverrides[] = {
