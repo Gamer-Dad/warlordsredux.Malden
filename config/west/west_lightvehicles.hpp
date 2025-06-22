@@ -254,37 +254,37 @@ class LightVehicles {
     };
     // "Hunter-M Autocannon"
 
-    class B_LSV_01_AT_TV_F {
-        ammoOverrides[] = {
-            {"M_127mm_Firefist_AT", {"M_Spike", "Spike (TV-Guided)"}}
-        };
-        capValue = 1;
-        cost = 2000;
-        description = "Prowler (Spike AT) is a variant of the Prowler AT.";
+    // class B_LSV_01_AT_TV_F {
+    //     ammoOverrides[] = {
+    //         {"M_127mm_Firefist_AT", {"M_Spike", "Spike (TV-Guided)"}}
+    //     };
+    //     capValue = 1;
+    //     cost = 2000;
+    //     description = "Prowler (Spike AT) is a variant of the Prowler AT.";
         
-        name = "Prowler (Spike AT)";
-        offset[] = {0, 5, 0};
-        rearm = 200;
-        requirements[] = {};
-        spawn = "B_LSV_01_AT_F";
-        variant = 1;
+    //     name = "Prowler (Spike AT)";
+    //     offset[] = {0, 5, 0};
+    //     rearm = 200;
+    //     requirements[] = {};
+    //     spawn = "B_LSV_01_AT_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles"
-            };
-            addWeapons[] = {
-                "missiles_Firefist"
-            };
-            removeMagazines[] = {
-                "1Rnd_GAT_missiles"
-            };
-            removeWeapons[] = {
-                "missiles_titan_static"
-            };
-            turret[] = { 0 };
-        };
-    }; // "Prowler (Spike AT)"
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_Firefist"
+    //         };
+    //         removeMagazines[] = {
+    //             "1Rnd_GAT_missiles"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan_static"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; // "Prowler (Spike AT)"
 };
