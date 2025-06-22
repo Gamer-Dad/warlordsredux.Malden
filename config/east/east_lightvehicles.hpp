@@ -237,37 +237,37 @@ class LightVehicles {
         };
     }; // "Ifrit-M Autocannon"
 
-        class O_LSV_01_AT_TV_F {
-        ammoOverrides[] = {
-            {"M_127mm_Firefist_AT", {"M_Spike", "Spike (TV-Guided)"}}
-        };
-        capValue = 1;
-        cost = 2000;
-        description = "Qilin (Spike AT) is a variant of the Prowler AT.";
-        killReward = 250;
-        name = "Qilin (Spike AT)";
-        offset[] = {0, 5, 0};
-        rearm = 200;
-        requirements[] = {};
-        spawn = "O_LSV_02_AT_F";
-        variant = 1;
+    //     class O_LSV_01_AT_TV_F {
+    //     ammoOverrides[] = {
+    //         {"M_127mm_Firefist_AT", {"M_Spike", "Spike (TV-Guided)"}}
+    //     };
+    //     capValue = 1;
+    //     cost = 2000;
+    //     description = "Qilin (Spike AT) is a variant of the Prowler AT.";
+    //     killReward = 250;
+    //     name = "Qilin (Spike AT)";
+    //     offset[] = {0, 5, 0};
+    //     rearm = 200;
+    //     requirements[] = {};
+    //     spawn = "O_LSV_02_AT_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles"
-            };
-            addWeapons[] = {
-                "missiles_Firefist"
-            };
-            removeMagazines[] = {
-                "Vorona_HEAT"
-            };
-            removeWeapons[] = {
-                "missiles_Vorona"
-            };
-            turret[] = { 0 };
-        };
-    }; // Qilin (Spike AT)
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_Firefist"
+    //         };
+    //         removeMagazines[] = {
+    //             "Vorona_HEAT"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_Vorona"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // }; // Qilin (Spike AT)
 };
