@@ -1,7 +1,7 @@
 class RotaryWing {
     class O_Heli_Transport_04_F {
         cost = 500;
-        killReward = 100;
+        
         offset[] = {0, 10, 0};
         requirements[] = {"H"};
     }; // "Mi-290 Taru"
@@ -9,21 +9,19 @@ class RotaryWing {
     class O_Heli_Light_02_unarmed_F {
         cost = 500;
         hasHMD = 1;
-        killReward = 125;
+        
         offset[] = {0, 10, 0};
         requirements[] = {"H"};
     }; // "PO-30 Orca (Unarmed)"
 
     class O_Heli_Transport_04_covered_F {
         cost = 400;
-        killReward = 100;
         offset[] = {0, 10, 0};
         requirements[] = {"H"};
     }; // "Mi-290 Taru (Transport)"
 
     // class O_Heli_Transport_04_medevac_F {
     //     cost = 500;
-    //     killReward = 100;
     //     offset[] = {0, 10, 0};
     //     requirements[] = {"H"};
     // }; // "Mi-290 Taru (Medical)"
@@ -33,7 +31,6 @@ class RotaryWing {
     //     description = "Mi-290 Taru (Recon) is a variant of the Mi-290 Taru with a powerful scanner.";
     //     hasHMD = 1;
     //     hasScanner = 1;
-    //     killReward = 125;
     //     name = "Mi-290 Taru (Recon)";
     //     offset[] = {0, 10, 0};
     //     requirements[] = {"H"};
@@ -61,7 +58,7 @@ class RotaryWing {
     //     description = "CH-49 Mohawk (AWACS) is a variant of the CH-49 Mohawk with a powerful air radar.";
     //     hasAWACS = 1;
     //     hasHMD = 1;
-    //     killReward = 300;
+    //     
     //     name = "CH-49 Mohawk (AWACS)";
     //     offset[] = {0, 10, 0};
     //     requirements[] = {"H"};
@@ -76,7 +73,7 @@ class RotaryWing {
 
     class O_Heli_Light_02_dynamicLoadout_F {
         cost = 4000;
-        killReward = 300;
+        
         offset[] = {0, 10, 0};
         rearm = 300;
         requirements[] = {"H"};
@@ -89,7 +86,7 @@ class RotaryWing {
         };
         cost = 10000;
         hasHMD = 1;
-        killReward = 550;
+        
         offset[] = {0, 11, 0};
         rearm = 700;
         requirements[] = {"H"};
@@ -125,7 +122,6 @@ class RotaryWing {
     //         "PylonMissile_1Rnd_BombCluster_02_F"
     //     };
     //     hasHMD = 1;
-    //     killReward = 550;
     //     name = "Mi-48 Kajman (SEAD)";
     //     offset[] = {0, 11, 0};
     //     rearm = 700;

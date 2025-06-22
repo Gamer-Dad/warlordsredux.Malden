@@ -1,25 +1,25 @@
 class Naval {
     class C_Scooter_Transport_01_F {
         cost = 50;
-        killReward = 20;
+        
         requirements[] = {"W"};
     };	// "Water scooter"
 
     class B_Boat_Transport_01_F {
         cost = 100;
-        killReward = 20;
+        
         requirements[] = {"W"};
     };	// "Assault Boat"
 
     class B_SDV_01_F {
         cost = 250;
-        killReward = 20;
+        
         requirements[] = {"W"};
     };	// "SDV"
 
     class B_Boat_Armed_01_minigun_F {
         cost = 500;
-        killReward = 80;
+        
         rearm = 400;
         requirements[] = {"W"};
     };	// "Speedboat Minigun"
@@ -30,7 +30,7 @@ class Naval {
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };
-        killReward = 100;
+        
         name = "Riverine Command Boat";
         rearm = 400;
         requirements[] = {"W"};

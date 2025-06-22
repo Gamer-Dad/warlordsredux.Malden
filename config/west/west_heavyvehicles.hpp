@@ -51,11 +51,11 @@ class HeavyVehicles {
         requirements[] = {};
     }; // "AMV-7 Marshall"
 
+
     class B_APC_Tracked_01_CRV_F {
         aps = 2;
         capValue = 2;
         cost = 2500;
-        killReward = 300;
         rearm = 400;
         requirements[] = {};
     }; // "CRV-6e Bobcat"
@@ -64,7 +64,6 @@ class HeavyVehicles {
         aps = 2;
         capValue = 3;
         cost = 1300;
-        killReward = 300;
         rearm = 400;
         requirements[] = {};
         class Gunner: WLTurretDefaults {
@@ -94,7 +93,6 @@ class HeavyVehicles {
     //     description = "AMV-7 Marshall (Recon) is a variant of the AMV-7 Marshall armed with a powerful scanner.";
     //     hasHMD = 1;
     //     hasScanner = 1;
-    //     killReward = 300;
     //     name = "AMV-7 Marshall (Recon)";
     //     rearm = 500;
     //     requirements[] = {};
@@ -123,7 +121,6 @@ class HeavyVehicles {
     //     capValue = 3;
     //     cost = 3200;
     //     description = "AMV-7 Marshall UP is a variant of the AMV-7 Marshall armed with a larger magazine 40mm cannon.";
-    //     killReward = 300;
     //     name = "AMV-7 Marshall UP";
     //     rearm = 500;
     //     requirements[] = {};
@@ -156,7 +153,7 @@ class HeavyVehicles {
     //     capValue = 4;
     //     cost = 3700;
     //     description = "Rhino MGS-E is a variant of the Rhino MGS armed with a weaker 105mm cannon.";
-    //     killReward = 400;
+    //     
     //     name = "Rhino MGS-E";
     //     rearm = 500;
     //     requirements[] = {};
@@ -187,7 +184,7 @@ class HeavyVehicles {
     //     aps = 2;
     //     capValue = 4;
     //     cost = 4500;
-    //     killReward = 450;
+    //     
     //     rearm = 500;
     //     requirements[] = {};
     // }; // "Rhino MGS"
@@ -196,7 +193,7 @@ class HeavyVehicles {
     //     aps = 2;
     //     capValue = 4;
     //     cost = 5000;
-    //     killReward = 500;
+    //     
     //     rearm = 500;
     //     requirements[] = {};
     // }; // "Rhino MGS UP"
@@ -208,7 +205,7 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "4Rnd_120mm_LG_cannon_missiles"
     //     };
-    //     killReward = 450;
+    //     
     //     rearm = 600;
     //     requirements[] = {};
     // }; // "M2A1 Slammer"
@@ -220,7 +217,7 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "4Rnd_120mm_LG_cannon_missiles"
     //     };
-    //     killReward = 500;
+    //     
     //     rearm = 600;
     //     requirements[] = {};
     // }; // "M2A1 Slammer UP"
@@ -232,7 +229,7 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "4Rnd_120mm_LG_cannon_missiles"
     //     };
-    //     killReward = 500;
+    //     
     //     name = "M52 Kuma";
     //     rearm = 600;
     //     requirements[] = {};
@@ -250,7 +247,7 @@ class HeavyVehicles {
     //     capValue = 4;
     //     cost = 13000;
     //     description = "M2X Slammer (Railgun) is a variant of the M2A1 Slammer armed with a railgun.";
-    //     killReward = 550;
+    //     
     //     name = "M2X Slammer (Railgun)";
     //     rearm = 600;
     //     requirements[] = {};
@@ -286,7 +283,7 @@ class HeavyVehicles {
     //         "2Rnd_155mm_Mo_Cluster",
     //         "2Rnd_155mm_Mo_Cluster_O"
     //     };
-    //     killReward = 600;
+    //     
     //     rearm = 1800;
     //     requirements[] = {};
     // }; // "M4 Scorcher"
@@ -298,7 +295,7 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "12Rnd_230mm_rockets_cluster"
     //     };
-    //     killReward = 600;
+    //     
     //     rearm = 1800;
     //     requirements[] = {};
     // }; // "M5 Sandstorm MLRS"

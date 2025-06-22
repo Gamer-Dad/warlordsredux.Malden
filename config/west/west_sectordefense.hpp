@@ -2,7 +2,7 @@ class SectorDefense {
     class Land_Razorwire_F {
         cost = 50;
         demolishable = 1;
-        killReward = 30;
+        
         offset[] = {0, 5, 0};
         requirements[] = {};
     }; // "Razor Wire Fence"
@@ -10,7 +10,7 @@ class SectorDefense {
     class Land_BagFence_Round_F {
         cost = 50;
         demolishable = 1;
-        killReward = 30;
+        
         offset[] = {0, 2, 0};
         requirements[] = {};
     }; // "Semi Circle Sand bags"
@@ -18,7 +18,7 @@ class SectorDefense {
     class Land_DragonsTeeth_01_4x2_new_F {
         cost = 50;
         demolishable = 1;
-        killReward = 30;
+        
         offset[] = {0, 5, 0};
         requirements[] = {};
     }; // "Tank barrier"
@@ -26,7 +26,7 @@ class SectorDefense {
     class Land_HBarrier_5_F {
         cost = 50;
         demolishable = 1;
-        killReward = 30;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // "H-barrier"
@@ -34,7 +34,7 @@ class SectorDefense {
     class Land_HBarrierWall6_F {
         cost = 60;
         demolishable = 1;
-        killReward = 30;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // "H-barrier wall"
@@ -43,7 +43,7 @@ class SectorDefense {
         cost = 100;
         demolishable = 1;
         garbageCollect = 1;
-        killReward = 30;
+        
         offset[] = {0, 6, 0};
         requirements[] = {};
     }; // "Camouflage Vehicle Cover (Green)"
@@ -51,7 +51,7 @@ class SectorDefense {
     class B_HMG_01_F {
         cost = 150;
         demolishable = 1;
-        killReward = 100;
+        
         loadable[] = {0, -2.5, 0.4};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -79,7 +79,7 @@ class SectorDefense {
         cost = 200;
         demolishable = 1;
         garbageCollect = 1;
-        killReward = 30;
+        
         offset[] = {0, 8, 0};
         requirements[] = {};
     }; // "IR Masking Tent (Large)"
@@ -87,7 +87,7 @@ class SectorDefense {
     class B_HMG_01_high_F {
         cost = 200;
         demolishable = 1;
-        killReward = 100;
+        
         loadable[] = {0, -2.5, 0.8};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -114,7 +114,7 @@ class SectorDefense {
     class B_GMG_01_F {
         cost = 200;
         demolishable = 1;
-        killReward = 100;
+        
         loadable[] = {0, -2.5, 0.4};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -124,7 +124,7 @@ class SectorDefense {
     class B_GMG_01_high_F {
         cost = 250;
         demolishable = 1;
-        killReward = 100;
+        
         loadable[] = {0, -2.5, 0.8};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -138,7 +138,7 @@ class SectorDefense {
     //     variant = 1;
     //     requirements[] = {};
     //     rearm = 300;
-    //     killReward = 100;
+    //     
     //     loadable[] = {0, -2.5, 0};
     //
     //     class Gunner: WLTurretDefaults {
@@ -164,7 +164,7 @@ class SectorDefense {
     class B_static_AT_F {
         cost = 300;
         demolishable = 1;
-        killReward = 100;
+        
         loadable[] = {0, -2.5, 0.2};
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -193,7 +193,7 @@ class SectorDefense {
     class B_HMG_01_A_F {
         cost = 500;
         demolishable = 1;
-        killReward = 150;
+        
         loadable[] = {0, -2.5, 0.4};
         name = "Mk30 HMG Auto Turret";
         offset[] = {0, 3, 0};
@@ -221,7 +221,7 @@ class SectorDefense {
     class B_GMG_01_A_F {
         cost = 650;
         demolishable = 1;
-        killReward = 150;
+        
         loadable[] = {0, -2.5, 0.4};
         name = "Mk32 GMG Auto Turret";
         offset[] = {0, 3, 0};
@@ -237,7 +237,7 @@ class SectorDefense {
             "4Rnd_GAA_missiles",
             "5Rnd_GAT_missiles"
         };
-        killReward = 200;
+        
         loadable[] = {0, -2.5, 0.2};
         name = "Static AT/AA Launcher (UP)";
         offset[] = {0, 3, 0};
@@ -278,7 +278,7 @@ class SectorDefense {
     //     demolishable = 1;
     //     description = "EW Tower can be used to jam enemy autonomous assets and provide EW support to your team. It must be placed outside the home base in an owned sector.";
     //     garbageCollect = 1;
-    //     killReward = 400;
+    //     
     //     name = "EW Tower";
     //     offset[] = {0, 6, 0};
     //     requirements[] = {};
@@ -288,7 +288,7 @@ class SectorDefense {
     class B_Mortar_01_F {
         cost = 4000;
         demolishable = 1;
-        killReward = 125;
+        
         loadable[] = {0, -2.5, 0};
         offset[] = {0, 3, 0};
         rearm = 900;
@@ -302,7 +302,7 @@ class SectorDefense {
     //     cost = 6000;
     //     demolishable = 1;
     //     description = "Switchblade Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
-    //     killReward = 125;
+    //     
     //     loadable[] = {0, -2.5, 0};
     //     name = "Switchblade Launcher";
     //     offset[] = {0, 3, 0};
@@ -344,7 +344,7 @@ class SectorDefense {
     //         "magazine_ShipCannon_120mm_mine_shells_x6",
     //         "magazine_ShipCannon_120mm_AT_mine_shells_x6"
     //     };
-    //     killReward = 600;
+    //     
     //     offset[] = {0, 9, 0};
     //     requirements[] = {};
     //     rearm = 2700;
@@ -355,6 +355,6 @@ class SectorDefense {
     //     requirements[] = {};
     //     offset[] = {0, 7, 0};
     //     rearm = 2700;
-    //     killReward = 700;
+    //     
     // }; // "Mk41 VLS"
 };

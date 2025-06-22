@@ -1,7 +1,7 @@
 class RemoteControl {
     class B_UGV_02_Demining_F {
         cost = 100;
-        killReward = 100;
+        
         offset[] = {0, 3, 0};
         rearm = 200;
         requirements[] = {};
@@ -9,7 +9,7 @@ class RemoteControl {
 
     class B_UGV_01_F {
         cost = 150;
-        killReward = 50;
+        
         offset[] = {0, 5, 0};
         requirements[] = {};
     }; // "UGV Stomper"
@@ -17,14 +17,14 @@ class RemoteControl {
     class B_UAV_01_F {
         cost = 500;
         hasHMD = 1;
-        killReward = 100;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // AR-2
 
     class B_UGV_01_rcws_F {
         cost = 500;
-        killReward = 100;
+        
         offset[] = {0, 5, 0};
         rearm = 300;
         requirements[] = {};
@@ -32,7 +32,7 @@ class RemoteControl {
 
     class B_UAV_06_F {
         cost = 1000;
-        killReward = 200;
+        
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // "AR-6"
@@ -41,7 +41,7 @@ class RemoteControl {
         cost = 1200;
         description = "AR-2 Darter UP is a variant of the AR-2 Darter armed with a 45ACP SMG.";
         hasHMD = 1;
-        killReward = 200;
+        
         name = "AR-2 Darter UP";
         offset[] = {0, 3, 0};
         rearm = 300;
@@ -74,7 +74,7 @@ class RemoteControl {
     class B_UGV_01_rcws_UP_F {
         cost = 1200;
         description = "UGV Stomper UP is a variant of the UGV Stomper armed with a 30mm autocannon.";
-        killReward = 300;
+        
         name = "UGV Stomper UP";
         offset[] = {0, 5, 0};
         rearm = 300;
@@ -119,7 +119,7 @@ class RemoteControl {
         };
         hasHMD = 1;
         hasScanner = 1;
-        killReward = 400;
+        
         name = "MQ-4R Greyhawk (Recon)";
         rearm = 300;
         requirements[] = {"H"};
@@ -129,7 +129,7 @@ class RemoteControl {
     class B_UAV_02_dynamicLoadout_F {
         cost = 8000;
         hasHMD = 1;
-        killReward = 600;
+        
         rearm = 300;
         requirements[] = {"H"};
     }; // "Greyhawk"
@@ -137,7 +137,7 @@ class RemoteControl {
     class B_T_UAV_03_dynamicLoadout_F {
         cost = 11000;
         hasHMD = 1;
-        killReward = 600;
+        
         rearm = 600;
         requirements[] = {"H"};
 
@@ -156,7 +156,7 @@ class RemoteControl {
 
     // class B_UAV_05_F {
     //     cost = 22500;
-    //     killReward = 650;
+    //     
     //     rearm = 500;
     //     requirements[] = {"H"};
 
