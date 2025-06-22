@@ -138,7 +138,6 @@ class SectorDefense {
     //     variant = 1;
     //     requirements[] = {};
     //     rearm = 300;
-    //     
     //     loadable[] = {0, -2.5, 0};
     //
     //     class Gunner: WLTurretDefaults {

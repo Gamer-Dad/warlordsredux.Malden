@@ -25,7 +25,6 @@ class RotaryWing {
     //     cost = 2000;
     //     description = "UH-80 Ghost Hawk UP is a variant of the UH-80 Ghost Hawk armed with 20mm autocannons.";
     //     hasHMD = 1;
-    //     
     //     name = "UH-80 Ghost Hawk UP";
     //     offset[] = {0, 11, 0};
     //     rearm = 300;
@@ -124,7 +123,6 @@ class RotaryWing {
     //     cost = 5000;
     //     description = "WY-55 Hellcat is a light attack helicopter.";
     //     hasHMD = 1;
-    //     
     //     name = "WY-55 Hellcat";
     //     offset[] = {0, 9, 0};
     //     rearm = 300;
@@ -173,7 +171,6 @@ class RotaryWing {
     //     cost = 14000;
     //     description = "AH-99 Blackfoot (SEAD)";
     //     hasHMD = 1;
-    //     
     //     name= AH-99 Blackfoot (SEAD);
     //     offset[] = {0, 10, 0};
     //     rearm = 700;

@@ -59,7 +59,6 @@ class LightVehicles {
     class O_LSV_02_armed_F {
         capValue = 1;
         cost = 200;
-        
         offset[] = {0, 5, 0};
         rearm = 200;
         requirements[] = {};
@@ -94,7 +93,6 @@ class LightVehicles {
         class O_MRAP_02_F {
         capValue = 1;
         cost = 300;
-        
         requirements[] = {};
     }; // "Ifrit"
 
@@ -111,7 +109,6 @@ class LightVehicles {
         aps = 1;
         capValue = 2;
         cost = 1250;
-        
         rearm = 300;
         requirements[] = {};
     }; // "Ifrit GMG"
@@ -119,7 +116,6 @@ class LightVehicles {
     class O_Truck_01_flatbed_F {
         capValue = 1;
         cost = 500;
-        
         name = "HEMTT Flatbed";
         requirements[] = {};
         spawn = "B_Truck_01_flatbed_F";
@@ -134,7 +130,6 @@ class LightVehicles {
     class O_Truck_03_transport_F {
         capValue = 1;
         cost = 200;
-        
         requirements[] = {};
     }; // "Tempest Transport"
 
@@ -163,7 +158,6 @@ class LightVehicles {
         aps = 4;
         capValue = 1;
         cost = 1500;
-        
         requirements[] = {};
     }; // "Tempest Device"
 
@@ -244,7 +238,6 @@ class LightVehicles {
     //     capValue = 1;
     //     cost = 2000;
     //     description = "Qilin (Spike AT) is a variant of the Prowler AT.";
-        
     //     name = "Qilin (Spike AT)";
     //     offset[] = {0, 5, 0};
     //     rearm = 200;

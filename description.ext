@@ -5,6 +5,7 @@
 #include "config\projectiles.hpp"
 #include "config\sectors.hpp"
 
+
 onLoadName = "WL Redux Malden 2.0.0-b.3";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";

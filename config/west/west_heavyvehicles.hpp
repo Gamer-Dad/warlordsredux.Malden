@@ -51,11 +51,11 @@ class HeavyVehicles {
         requirements[] = {};
     }; // "AMV-7 Marshall"
 
+
     class B_APC_Tracked_01_CRV_F {
         aps = 2;
         capValue = 2;
         cost = 2500;
-        
         rearm = 400;
         requirements[] = {};
     }; // "CRV-6e Bobcat"
@@ -64,7 +64,6 @@ class HeavyVehicles {
         aps = 2;
         capValue = 3;
         cost = 1300;
-        
         rearm = 400;
         requirements[] = {};
         class Gunner: WLTurretDefaults {
@@ -94,7 +93,6 @@ class HeavyVehicles {
     //     description = "AMV-7 Marshall (Recon) is a variant of the AMV-7 Marshall armed with a powerful scanner.";
     //     hasHMD = 1;
     //     hasScanner = 1;
-    //     
     //     name = "AMV-7 Marshall (Recon)";
     //     rearm = 500;
     //     requirements[] = {};
@@ -123,7 +121,6 @@ class HeavyVehicles {
     //     capValue = 3;
     //     cost = 3200;
     //     description = "AMV-7 Marshall UP is a variant of the AMV-7 Marshall armed with a larger magazine 40mm cannon.";
-    //     
     //     name = "AMV-7 Marshall UP";
     //     rearm = 500;
     //     requirements[] = {};

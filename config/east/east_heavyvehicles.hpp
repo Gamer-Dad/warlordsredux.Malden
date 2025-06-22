@@ -39,7 +39,6 @@ class HeavyVehicles {
         aps = 2;
         capValue = 4;
         cost = 2500;
-        
         name = "FV-127 Nira";
         rearm = 500;
         requirements[] = {};
@@ -69,7 +68,6 @@ class HeavyVehicles {
     //     capValue = 3;
     //     cost = 2600;
     //     description = "MSE-3M Marid is a variant of the MSE-3 Marid armed with a 30mm autocannon.";
-    //     
     //     name = "MSE-3M Marid Autocannon";
     //     rearm = 500;
     //     requirements[] = {};
@@ -101,7 +99,6 @@ class HeavyVehicles {
     //     description = "BTR-K Kamysh (Recon) is a variant of the BTR-K Kamysh armed with a powerful scanner.";
     //     hasHMD = 1;
     //     hasScanner = 1;
-    //     
     //     name = "BTR-K Kamysh (Recon)";
     //     rearm = 500;
     //     requirements[] = {};
@@ -164,7 +161,6 @@ class HeavyVehicles {
     //     disallowMagazines[] = {
     //         "4Rnd_GAA_missiles"
     //     };
-    //     
     //     name = "BMP-K Kamysh";
     //     rearm = 500;
     //     requirements[] = {};

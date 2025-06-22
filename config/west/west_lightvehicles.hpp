@@ -36,7 +36,6 @@ class LightVehicles {
     class B_G_Offroad_01_AT_F {
         capValue = 1;
         cost = 500;
-        
         offset[] = {0, 5, 0};
         rearm = 180;
         requirements[] = {};
@@ -59,7 +58,6 @@ class LightVehicles {
         class B_LSV_01_armed_F {
         capValue = 1;
         cost = 200;
-        
         offset[] = {0, 5, 0};
         rearm = 120;
         requirements[] = {};
@@ -110,7 +108,6 @@ class LightVehicles {
         class B_MRAP_01_F {
         capValue = 1;
         cost = 300;
-        
         requirements[] = {};
     }; // "Hunter"
 
@@ -127,7 +124,6 @@ class LightVehicles {
         aps = 1;
         capValue = 2;
         cost = 1250;
-        
         rearm = 300;
         requirements[] = {};
     }; // "Hunter GMG"
@@ -135,14 +131,12 @@ class LightVehicles {
     class B_Truck_01_flatbed_F {
         capValue = 1;
         cost = 500;
-        
         requirements[] = {};
     }; // "HEMTT Flatbed"
 
     class B_Truck_01_transport_F {
         capValue = 1;
         cost = 200;
-        
         requirements[] = {};
     }; // "HEMTT Transport"
 
@@ -171,7 +165,6 @@ class LightVehicles {
         aps = 4;
         capValue = 1;
         cost = 1500;
-        
         name = "Tempest (Device)";
         requirements[] = {};
         spawn = "O_T_Truck_03_device_ghex_F";
@@ -261,7 +254,6 @@ class LightVehicles {
     //     capValue = 1;
     //     cost = 2000;
     //     description = "Prowler (Spike AT) is a variant of the Prowler AT.";
-        
     //     name = "Prowler (Spike AT)";
     //     offset[] = {0, 5, 0};
     //     rearm = 200;

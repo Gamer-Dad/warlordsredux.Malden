@@ -16,14 +16,12 @@ class RotaryWing {
 
     class O_Heli_Transport_04_covered_F {
         cost = 400;
-        
         offset[] = {0, 10, 0};
         requirements[] = {"H"};
     }; // "Mi-290 Taru (Transport)"
 
     // class O_Heli_Transport_04_medevac_F {
     //     cost = 500;
-    //     
     //     offset[] = {0, 10, 0};
     //     requirements[] = {"H"};
     // }; // "Mi-290 Taru (Medical)"
@@ -33,7 +31,6 @@ class RotaryWing {
     //     description = "Mi-290 Taru (Recon) is a variant of the Mi-290 Taru with a powerful scanner.";
     //     hasHMD = 1;
     //     hasScanner = 1;
-    //     
     //     name = "Mi-290 Taru (Recon)";
     //     offset[] = {0, 10, 0};
     //     requirements[] = {"H"};
@@ -125,7 +122,6 @@ class RotaryWing {
     //         "PylonMissile_1Rnd_BombCluster_02_F"
     //     };
     //     hasHMD = 1;
-    //     
     //     name = "Mi-48 Kajman (SEAD)";
     //     offset[] = {0, 11, 0};
     //     rearm = 700;
