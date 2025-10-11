@@ -8,7 +8,7 @@ class RotaryWing {
 
     class O_Heli_Light_02_unarmed_F {
         cost = 500;
-        hasHMD = 1;
+        //hasHMD = 1;
         
         offset[] = {0, 10, 0};
         requirements[] = {"H"};
@@ -85,7 +85,7 @@ class RotaryWing {
             "PylonMissile_Missile_KH58_INT_x1"
         };
         cost = 10000;
-        hasHMD = 1;
+        //hasHMD = 1;
         
         offset[] = {0, 11, 0};
         rearm = 700;

@@ -140,7 +140,7 @@ class RotaryWing {
             "PylonRack_Missile_HARM_x1"
         };
         cost = 13000;
-        hasHMD = 1;
+        //hasHMD = 1;
         
         offset[] = {0, 10, 0};
         rearm = 700;
