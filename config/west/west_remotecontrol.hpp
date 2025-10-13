@@ -37,39 +37,7 @@ class RemoteControl {
         requirements[] = {};
     }; // "AR-6"
 
-    class B_UAV_01_UP_F {
-        cost = 1200;
-        description = "AR-2 Darter UP is a variant of the AR-2 Darter armed with a 45ACP SMG.";
-        hasHMD = 1;
-        
-        name = "AR-2 Darter UP";
-        offset[] = {0, 3, 0};
-        rearm = 300;
-        requirements[] = {};
-        spawn = "B_UAV_01_F";
-        variant = 1;
-
-        class Gunner: WLTurretDefaults {
-            turret[] = { 0 };
-            removeMagazines[] = {};
-            removeWeapons[] = {};
-            addMagazines[] = {
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
-                "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow"
-            };
-            addWeapons[] = {
-                "SMG_01_F"
-            };
-        };
-    }; // "AR-2 Darter UP"
+    
 
     class B_UGV_01_rcws_UP_F {
         cost = 1200;
@@ -128,7 +96,7 @@ class RemoteControl {
 
     class B_UAV_02_dynamicLoadout_F {
         cost = 8000;
-        hasHMD = 1;
+        
         
         rearm = 300;
         requirements[] = {"H"};
@@ -136,7 +104,7 @@ class RemoteControl {
 
     class B_T_UAV_03_dynamicLoadout_F {
         cost = 11000;
-        hasHMD = 1;
+        
         
         rearm = 600;
         requirements[] = {"H"};
