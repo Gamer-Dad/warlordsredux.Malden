@@ -10,7 +10,7 @@ class HeavyVehicles {
     class O_APC_Wheeled_03_cannon_F {
         aps = 2;
         capValue = 3;
-        cost = 2700;
+        cost = 2500;
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };
@@ -38,7 +38,7 @@ class HeavyVehicles {
     class O_APC_tracked_03_rcws_F {
         aps = 2;
         capValue = 4;
-        cost = 2500;
+        cost = 1700;
         name = "FV-127 Nira";
         rearm = 500;
         requirements[] = {};
@@ -127,7 +127,7 @@ class HeavyVehicles {
     class O_APC_Tracked_02_cannon_F {
         aps = 2;
         capValue = 3;
-        cost = 1300;
+        cost = 2000;
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };

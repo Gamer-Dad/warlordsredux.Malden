@@ -46,7 +46,7 @@ class HeavyVehicles {
         class B_APC_Wheeled_01_cannon_F {
         aps = 2;
         capValue = 3;
-        cost = 2700;
+        cost = 2900;
         rearm = 500;
         requirements[] = {};
     }; // "AMV-7 Marshall"
@@ -63,7 +63,7 @@ class HeavyVehicles {
     class B_APC_Tracked_01_rcws_F {
         aps = 2;
         capValue = 3;
-        cost = 1300;
+        cost = 2000;
         rearm = 400;
         requirements[] = {};
         class Gunner: WLTurretDefaults {

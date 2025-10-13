@@ -213,7 +213,7 @@ class LightVehicles {
     class B_MRAP_01_gmg_up_F {
         aps = 2;
         capValue = 2;
-        cost = 1500;
+        cost = 1200;
         description = "Hunter UP is a variant of the Hunter armed with a 20mm autocannon.";
         
         name = "Hunter UP Autocannon";
