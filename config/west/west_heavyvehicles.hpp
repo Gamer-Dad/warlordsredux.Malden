@@ -8,9 +8,9 @@ class HeavyVehicles {
         };
         rearm = 500;
         name = "LAV-III Stryker ICV";
-        description = "The Stryker is a family of eight-wheeled armored fighting vehicles derived from the Canadian LAV III."
+        description = "The Stryker is a family of eight-wheeled armored fighting vehicles derived from the Canadian LAV III.";
         requirements[] = {};
-        spawn = "I_APC_Wheeled_03_cannon_F"
+        spawn = "I_APC_Wheeled_03_cannon_F";
         variant = 1;
         textures[] = {
         "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext_eaf_co.paa",
