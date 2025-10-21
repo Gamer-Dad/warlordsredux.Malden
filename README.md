@@ -15,7 +15,7 @@ Warlords Redux's project goal is to improve on BI vision of warlords with bugfix
 
 Warlord Redux discord: https://discord.gg/grmzsZE4ua
 
-Warlords Redux Server info: https://www.battlemetrics.com/servers/arma3/5449720
+Warlords Redux Server info: https://www.battlemetrics.com/servers/arma3/14125566
 
 ## Want to get involed  
 
