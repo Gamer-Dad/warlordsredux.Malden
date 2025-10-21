@@ -16,7 +16,7 @@ class HeavyVehicles {
         };
         rearm = 500;
         requirements[] = {};
-        spawn = "I_APC_Wheeled_03_cannon_F"
+        spawn = "I_APC_Wheeled_03_cannon_F";
         class Gunner: WLTurretDefaults {
             addMagazines[] = {
                 "5Rnd_GAT_missiles",
