@@ -198,7 +198,7 @@ class LightVehicles {
     class O_MRAP_02_gmg_m_F {
         aps = 2;
         capValue = 2;
-        cost = 1500;
+        cost = 1200;
         description = "Ifrit-M is a variant of the Ifrit armed with a 20mm autocannon.";
         
         name = "Ifrit-M Autocannon";
